@@ -1,6 +1,5 @@
-[_] 0% Todo for v1.0 pcb spin
-	[_] Power good sensor
-	[_] Extra 100uF caps for PIC and associated
+[_] 12% Todo for v1.0 pcb spin
+	[X] Extra 100uF caps for PIC and associated diode
 	[_] Do up power budget for 5V rail
 	[_] Light level pot or op-amp
 	[_] Mounting holes
