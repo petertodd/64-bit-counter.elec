@@ -822,11 +822,11 @@ C 51300 63500 1 0 0 lm317_tab.sym
 T 51600 64500 5 10 1 1 0 0 1
 refdes=U112
 T 51300 63500 5 10 0 0 0 0 1
-footprint=TO263
+footprint=SOT223
 T 53100 64500 5 10 1 1 0 6 1
-device=LM317
+device=LM1117
 T 51300 63500 5 10 0 0 0 0 1
-digikey=LM317S-ND
+digikey=LM1117IMP-ADJCT-ND
 }
 C 53700 63400 1 180 0 resistor-1.sym
 {
@@ -1076,9 +1076,9 @@ refdes=C104
 T 50500 62400 5 10 0 0 90 0 1
 symversion=0.1
 T 51400 62200 5 10 0 0 90 0 1
-digikey=490-1825-1-nd
+digikey=587-1333-1-ND
 T 51500 62300 5 10 1 1 0 0 1
-value=0.1uF
+value=10uF 10V
 T 51400 62200 5 10 0 0 90 0 1
 footprint=1206
 }
@@ -1117,11 +1117,11 @@ C 56300 59700 1 0 0 lm317_tab.sym
 T 56600 60700 5 10 1 1 0 0 1
 refdes=U113
 T 56300 59700 5 10 0 0 0 0 1
-footprint=TO263
+footprint=SOT223
 T 58100 60700 5 10 1 1 0 6 1
-device=LM317
+device=LM1117
 T 56300 59700 5 10 0 0 0 0 1
-digikey=LM317S-ND
+digikey=LM1117IMP-ADJCT-ND
 }
 C 58700 59600 1 180 0 resistor-1.sym
 {
@@ -1364,9 +1364,9 @@ refdes=C105
 T 55500 58600 5 10 0 0 90 0 1
 symversion=0.1
 T 56400 58400 5 10 0 0 90 0 1
-digikey=490-1825-1-nd
+digikey=587-1333-1-ND
 T 56500 58500 5 10 1 1 0 0 1
-value=0.1uF
+value=10uF 10V
 T 56400 58400 5 10 0 0 90 0 1
 footprint=1206
 }
@@ -1395,11 +1395,11 @@ C 61300 55900 1 0 0 lm317_tab.sym
 T 61600 56900 5 10 1 1 0 0 1
 refdes=U114
 T 61300 55900 5 10 0 0 0 0 1
-footprint=TO263
+footprint=SOT223
 T 63100 56900 5 10 1 1 0 6 1
-device=LM317
+device=LM1117
 T 61300 55900 5 10 0 0 0 0 1
-digikey=LM317S-ND
+digikey=LM1117IMP-ADJCT-ND
 }
 C 63700 55800 1 180 0 resistor-1.sym
 {
@@ -1565,9 +1565,9 @@ refdes=C106
 T 60500 54800 5 10 0 0 90 0 1
 symversion=0.1
 T 61400 54600 5 10 0 0 90 0 1
-digikey=490-1825-1-nd
+digikey=587-1333-1-ND
 T 61500 54700 5 10 1 1 0 0 1
-value=0.1uF
+value=10uF 10V
 T 61400 54600 5 10 0 0 90 0 1
 footprint=1206
 }
@@ -1595,11 +1595,11 @@ C 66400 52100 1 0 0 lm317_tab.sym
 T 66700 53100 5 10 1 1 0 0 1
 refdes=U115
 T 66400 52100 5 10 0 0 0 0 1
-footprint=TO263
+footprint=SOT223
 T 68200 53100 5 10 1 1 0 6 1
-device=LM317
+device=LM1117
 T 66400 52100 5 10 0 0 0 0 1
-digikey=LM317S-ND
+digikey=LM1117IMP-ADJCT-ND
 }
 C 68800 52000 1 180 0 resistor-1.sym
 {
@@ -1765,9 +1765,9 @@ refdes=C107
 T 65600 51000 5 10 0 0 90 0 1
 symversion=0.1
 T 66500 50800 5 10 0 0 90 0 1
-digikey=490-1825-1-nd
+digikey=587-1333-1-ND
 T 66600 50900 5 10 1 1 0 0 1
-value=0.1uF
+value=10uF 10V
 T 66500 50800 5 10 0 0 90 0 1
 footprint=1206
 }
@@ -1795,11 +1795,11 @@ C 71400 48300 1 0 0 lm317_tab.sym
 T 71700 49300 5 10 1 1 0 0 1
 refdes=U116
 T 71400 48300 5 10 0 0 0 0 1
-footprint=TO263
+footprint=SOT223
 T 73200 49300 5 10 1 1 0 6 1
-device=LM317
+device=LM1117
 T 71400 48300 5 10 0 0 0 0 1
-digikey=LM317S-ND
+digikey=LM1117IMP-ADJCT-ND
 }
 C 73800 48200 1 180 0 resistor-1.sym
 {
@@ -1965,9 +1965,9 @@ refdes=C108
 T 70600 47200 5 10 0 0 90 0 1
 symversion=0.1
 T 71500 47000 5 10 0 0 90 0 1
-digikey=490-1825-1-nd
+digikey=587-1333-1-ND
 T 71600 47100 5 10 1 1 0 0 1
-value=0.1uF
+value=10uF 10V
 T 71500 47000 5 10 0 0 90 0 1
 footprint=1206
 }
@@ -1995,11 +1995,11 @@ C 76400 44400 1 0 0 lm317_tab.sym
 T 76700 45400 5 10 1 1 0 0 1
 refdes=U117
 T 76400 44400 5 10 0 0 0 0 1
-footprint=TO263
+footprint=SOT223
 T 78200 45400 5 10 1 1 0 6 1
-device=LM317
+device=LM1117
 T 76400 44400 5 10 0 0 0 0 1
-digikey=LM317S-ND
+digikey=LM1117IMP-ADJCT-ND
 }
 C 78800 44300 1 180 0 resistor-1.sym
 {
@@ -2165,9 +2165,9 @@ refdes=C109
 T 75600 43300 5 10 0 0 90 0 1
 symversion=0.1
 T 76500 43100 5 10 0 0 90 0 1
-digikey=490-1825-1-nd
+digikey=587-1333-1-ND
 T 76600 43200 5 10 1 1 0 0 1
-value=0.1uF
+value=10uF 10V
 T 76500 43100 5 10 0 0 90 0 1
 footprint=1206
 }
@@ -2195,11 +2195,11 @@ C 81400 40600 1 0 0 lm317_tab.sym
 T 81700 41600 5 10 1 1 0 0 1
 refdes=U118
 T 81400 40600 5 10 0 0 0 0 1
-footprint=TO263
+footprint=SOT223
 T 83200 41600 5 10 1 1 0 6 1
-device=LM317
+device=LM1117
 T 81400 40600 5 10 0 0 0 0 1
-digikey=LM317S-ND
+digikey=LM1117IMP-ADJCT-ND
 }
 C 83800 40500 1 180 0 resistor-1.sym
 {
@@ -2365,9 +2365,9 @@ refdes=C110
 T 80600 39500 5 10 0 0 90 0 1
 symversion=0.1
 T 81500 39300 5 10 0 0 90 0 1
-digikey=490-1825-1-nd
+digikey=587-1333-1-ND
 T 81600 39400 5 10 1 1 0 0 1
-value=0.1uF
+value=10uF 10V
 T 81500 39300 5 10 0 0 90 0 1
 footprint=1206
 }
@@ -2395,11 +2395,11 @@ C 86400 36700 1 0 0 lm317_tab.sym
 T 86700 37700 5 10 1 1 0 0 1
 refdes=U119
 T 86400 36700 5 10 0 0 0 0 1
-footprint=TO263
+footprint=SOT223
 T 88200 37700 5 10 1 1 0 6 1
-device=LM317
+device=LM1117
 T 86400 36700 5 10 0 0 0 0 1
-digikey=LM317S-ND
+digikey=LM1117IMP-ADJCT-ND
 }
 C 88800 36600 1 180 0 resistor-1.sym
 {
@@ -2565,9 +2565,9 @@ refdes=C111
 T 85600 35600 5 10 0 0 90 0 1
 symversion=0.1
 T 86500 35400 5 10 0 0 90 0 1
-digikey=490-1825-1-nd
+digikey=587-1333-1-ND
 T 86600 35500 5 10 1 1 0 0 1
-value=0.1uF
+value=10uF 10V
 T 86500 35400 5 10 0 0 90 0 1
 footprint=1206
 }
