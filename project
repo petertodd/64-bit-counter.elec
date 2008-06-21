@@ -1,3 +1,3 @@
-schematics display.sch  icsp.sch  main.sch  power.sch
+schematics display.sch  icsp.sch  main.sch  power.sch ui.sch
 output-name 64-bit-counter 
 elements-dir sym/
