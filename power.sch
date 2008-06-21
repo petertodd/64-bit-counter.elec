@@ -156,9 +156,15 @@ footprint=1206
 C 36100 50200 1 0 0 testpt-1.sym
 {
 T 36200 50600 5 10 1 1 0 0 1
-refdes=TP_VRAW4
+refdes=TP_VRAW
 T 36500 51100 5 10 0 0 0 0 1
 device=TESTPOINT
 T 36500 50900 5 10 0 0 0 0 1
 footprint=TESTPT_42
 }
+C 34100 50300 1 0 0 generic-power.sym
+{
+T 34300 50550 5 10 1 1 0 3 1
+net=Vled:1
+}
+N 34300 50300 34300 50000 4
