@@ -1,0 +1,6124 @@
+# release: pcb-bin 20060822
+# date:    Sat Jun 21 19:36:34 2008
+# user:    pete (Peter Todd,,,)
+# host:    tilt
+
+PCB["" 1500000 800000]
+
+Grid[2500.000000 0 0 1]
+Cursor[0 0 6.000000]
+Thermal[0.500000]
+DRC[1000 1000 1000 1000 1500 1000]
+Flags(0x00000000000000d0)
+Groups("1,2,3,s:4,5,6,c:s:c")
+Styles["Signal,1000,4000,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,800,3600,2000,1000"]
+
+Symbol(' ' 18)
+(
+)
+Symbol('!' 12)
+(
+	SymbolLine(0 45 0 50 8)
+	SymbolLine(0 10 0 35 8)
+)
+Symbol('"' 12)
+(
+	SymbolLine(0 10 0 20 8)
+	SymbolLine(10 10 10 20 8)
+)
+Symbol('#' 12)
+(
+	SymbolLine(0 35 20 35 8)
+	SymbolLine(0 25 20 25 8)
+	SymbolLine(15 20 15 40 8)
+	SymbolLine(5 20 5 40 8)
+)
+Symbol('$' 12)
+(
+	SymbolLine(15 15 20 20 8)
+	SymbolLine(5 15 15 15 8)
+	SymbolLine(0 20 5 15 8)
+	SymbolLine(0 20 0 25 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 40 8)
+	SymbolLine(15 45 20 40 8)
+	SymbolLine(5 45 15 45 8)
+	SymbolLine(0 40 5 45 8)
+	SymbolLine(10 10 10 50 8)
+)
+Symbol('%' 12)
+(
+	SymbolLine(0 15 0 20 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 10 10 8)
+	SymbolLine(10 10 15 15 8)
+	SymbolLine(15 15 15 20 8)
+	SymbolLine(10 25 15 20 8)
+	SymbolLine(5 25 10 25 8)
+	SymbolLine(0 20 5 25 8)
+	SymbolLine(0 50 40 10 8)
+	SymbolLine(35 50 40 45 8)
+	SymbolLine(40 40 40 45 8)
+	SymbolLine(35 35 40 40 8)
+	SymbolLine(30 35 35 35 8)
+	SymbolLine(25 40 30 35 8)
+	SymbolLine(25 40 25 45 8)
+	SymbolLine(25 45 30 50 8)
+	SymbolLine(30 50 35 50 8)
+)
+Symbol('&' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 35 15 20 8)
+	SymbolLine(5 50 10 50 8)
+	SymbolLine(10 50 20 40 8)
+	SymbolLine(0 25 25 50 8)
+	SymbolLine(5 10 10 10 8)
+	SymbolLine(10 10 15 15 8)
+	SymbolLine(15 15 15 20 8)
+	SymbolLine(0 35 0 45 8)
+)
+Symbol(''' 12)
+(
+	SymbolLine(0 20 10 10 8)
+)
+Symbol('(' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 45 8)
+)
+Symbol(')' 12)
+(
+	SymbolLine(0 10 5 15 8)
+	SymbolLine(5 15 5 45 8)
+	SymbolLine(0 50 5 45 8)
+)
+Symbol('*' 12)
+(
+	SymbolLine(0 20 20 40 8)
+	SymbolLine(0 40 20 20 8)
+	SymbolLine(0 30 20 30 8)
+	SymbolLine(10 20 10 40 8)
+)
+Symbol('+' 12)
+(
+	SymbolLine(0 30 20 30 8)
+	SymbolLine(10 20 10 40 8)
+)
+Symbol(',' 12)
+(
+	SymbolLine(0 60 10 50 8)
+)
+Symbol('-' 12)
+(
+	SymbolLine(0 30 20 30 8)
+)
+Symbol('.' 12)
+(
+	SymbolLine(0 50 5 50 8)
+)
+Symbol('/' 12)
+(
+	SymbolLine(0 45 30 15 8)
+)
+Symbol('0' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 40 20 20 8)
+)
+Symbol('1' 12)
+(
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(10 10 10 50 8)
+	SymbolLine(0 20 10 10 8)
+)
+Symbol('2' 12)
+(
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(0 50 25 25 8)
+	SymbolLine(0 50 25 50 8)
+)
+Symbol('3' 12)
+(
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 30 20 30 8)
+)
+Symbol('4' 12)
+(
+	SymbolLine(0 30 20 10 8)
+	SymbolLine(0 30 25 30 8)
+	SymbolLine(20 10 20 50 8)
+)
+Symbol('5' 12)
+(
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(0 10 0 30 8)
+	SymbolLine(0 30 5 25 8)
+	SymbolLine(5 25 15 25 8)
+	SymbolLine(15 25 20 30 8)
+	SymbolLine(20 30 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('6' 12)
+(
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(0 30 15 30 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 35 20 45 8)
+)
+Symbol('7' 12)
+(
+	SymbolLine(0 50 25 25 8)
+	SymbolLine(25 10 25 25 8)
+	SymbolLine(0 10 25 10 8)
+)
+Symbol('8' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 25 8)
+	SymbolLine(15 30 20 25 8)
+)
+Symbol('9' 12)
+(
+	SymbolLine(0 50 20 30 8)
+	SymbolLine(20 15 20 30 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(5 30 20 30 8)
+)
+Symbol(':' 12)
+(
+	SymbolLine(0 25 5 25 8)
+	SymbolLine(0 35 5 35 8)
+)
+Symbol(';' 12)
+(
+	SymbolLine(0 50 10 40 8)
+	SymbolLine(10 25 10 30 8)
+)
+Symbol('<' 12)
+(
+	SymbolLine(0 30 10 20 8)
+	SymbolLine(0 30 10 40 8)
+)
+Symbol('=' 12)
+(
+	SymbolLine(0 25 20 25 8)
+	SymbolLine(0 35 20 35 8)
+)
+Symbol('>' 12)
+(
+	SymbolLine(0 20 10 30 8)
+	SymbolLine(0 40 10 30 8)
+)
+Symbol('?' 12)
+(
+	SymbolLine(10 30 10 35 8)
+	SymbolLine(10 45 10 50 8)
+	SymbolLine(0 15 0 20 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 20 8)
+	SymbolLine(10 30 20 20 8)
+)
+Symbol('@' 12)
+(
+	SymbolLine(0 10 0 40 8)
+	SymbolLine(0 40 10 50 8)
+	SymbolLine(10 50 40 50 8)
+	SymbolLine(50 35 50 10 8)
+	SymbolLine(50 10 40 0 8)
+	SymbolLine(40 0 10 0 8)
+	SymbolLine(10 0 0 10 8)
+	SymbolLine(15 20 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 30 35 8)
+	SymbolLine(30 35 35 30 8)
+	SymbolLine(35 30 40 35 8)
+	SymbolLine(35 30 35 15 8)
+	SymbolLine(35 20 30 15 8)
+	SymbolLine(20 15 30 15 8)
+	SymbolLine(20 15 15 20 8)
+	SymbolLine(40 35 50 35 8)
+)
+Symbol('A' 12)
+(
+	SymbolLine(0 15 0 50 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 50 8)
+	SymbolLine(0 30 25 30 8)
+)
+Symbol('B' 12)
+(
+	SymbolLine(0 50 20 50 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(20 30 25 25 8)
+)
+Symbol('C' 12)
+(
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 20 10 8)
+)
+Symbol('D' 12)
+(
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 45 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(0 50 20 50 8)
+	SymbolLine(0 10 20 10 8)
+)
+Symbol('E' 12)
+(
+	SymbolLine(0 30 15 30 8)
+	SymbolLine(0 50 20 50 8)
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 20 10 8)
+)
+Symbol('F' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(0 30 15 30 8)
+)
+Symbol('G' 12)
+(
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(10 30 20 30 8)
+)
+Symbol('H' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(25 10 25 50 8)
+	SymbolLine(0 30 25 30 8)
+)
+Symbol('I' 12)
+(
+	SymbolLine(0 10 10 10 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 50 10 50 8)
+)
+Symbol('J' 12)
+(
+	SymbolLine(0 10 15 10 8)
+	SymbolLine(15 10 15 45 8)
+	SymbolLine(10 50 15 45 8)
+	SymbolLine(5 50 10 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('K' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 30 20 10 8)
+	SymbolLine(0 30 20 50 8)
+)
+Symbol('L' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 50 20 50 8)
+)
+Symbol('M' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 15 25 8)
+	SymbolLine(15 25 30 10 8)
+	SymbolLine(30 10 30 50 8)
+)
+Symbol('N' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 0 15 8)
+	SymbolLine(0 15 25 40 8)
+	SymbolLine(25 10 25 50 8)
+)
+Symbol('O' 12)
+(
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('P' 12)
+(
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(20 30 25 25 8)
+	SymbolLine(5 30 20 30 8)
+)
+Symbol('Q' 12)
+(
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(10 40 20 50 8)
+)
+Symbol('R' 12)
+(
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(20 30 25 25 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(5 30 25 50 8)
+)
+Symbol('S' 12)
+(
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('T' 12)
+(
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(10 10 10 50 8)
+)
+Symbol('U' 12)
+(
+	SymbolLine(0 10 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 10 20 45 8)
+)
+Symbol('V' 12)
+(
+	SymbolLine(0 10 0 40 8)
+	SymbolLine(0 40 10 50 8)
+	SymbolLine(10 50 20 40 8)
+	SymbolLine(20 10 20 40 8)
+)
+Symbol('W' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 50 15 35 8)
+	SymbolLine(15 35 30 50 8)
+	SymbolLine(30 10 30 50 8)
+)
+Symbol('X' 12)
+(
+	SymbolLine(0 10 0 15 8)
+	SymbolLine(0 15 25 40 8)
+	SymbolLine(25 40 25 50 8)
+	SymbolLine(0 40 0 50 8)
+	SymbolLine(0 40 25 15 8)
+	SymbolLine(25 10 25 15 8)
+)
+Symbol('Y' 12)
+(
+	SymbolLine(0 10 0 15 8)
+	SymbolLine(0 15 10 25 8)
+	SymbolLine(10 25 20 15 8)
+	SymbolLine(20 10 20 15 8)
+	SymbolLine(10 25 10 50 8)
+)
+Symbol('Z' 12)
+(
+	SymbolLine(0 10 25 10 8)
+	SymbolLine(25 10 25 15 8)
+	SymbolLine(0 40 25 15 8)
+	SymbolLine(0 40 0 50 8)
+	SymbolLine(0 50 25 50 8)
+)
+Symbol('[' 12)
+(
+	SymbolLine(0 10 5 10 8)
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 50 5 50 8)
+)
+Symbol('\' 12)
+(
+	SymbolLine(0 15 30 45 8)
+)
+Symbol(']' 12)
+(
+	SymbolLine(0 10 5 10 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 50 5 50 8)
+)
+Symbol('^' 12)
+(
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 10 15 8)
+)
+Symbol('_' 12)
+(
+	SymbolLine(0 50 20 50 8)
+)
+Symbol('a' 12)
+(
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(20 30 20 45 8)
+	SymbolLine(20 45 25 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+)
+Symbol('b' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 35 20 45 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+)
+Symbol('c' 12)
+(
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 20 50 8)
+)
+Symbol('d' 12)
+(
+	SymbolLine(20 10 20 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+)
+Symbol('e' 12)
+(
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(0 40 20 40 8)
+	SymbolLine(20 40 20 35 8)
+)
+Symbol('f' 10)
+(
+	SymbolLine(5 15 5 50 8)
+	SymbolLine(5 15 10 10 8)
+	SymbolLine(10 10 15 10 8)
+	SymbolLine(0 30 10 30 8)
+)
+Symbol('g' 12)
+(
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(0 60 5 65 8)
+	SymbolLine(5 65 15 65 8)
+	SymbolLine(15 65 20 60 8)
+	SymbolLine(20 30 20 60 8)
+)
+Symbol('h' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 50 8)
+)
+Symbol('i' 10)
+(
+	SymbolLine(0 20 0 25 8)
+	SymbolLine(0 35 0 50 8)
+)
+Symbol('j' 10)
+(
+	SymbolLine(5 20 5 25 8)
+	SymbolLine(5 35 5 60 8)
+	SymbolLine(0 65 5 60 8)
+)
+Symbol('k' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 35 15 50 8)
+	SymbolLine(0 35 10 25 8)
+)
+Symbol('l' 10)
+(
+	SymbolLine(0 10 0 45 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('m' 12)
+(
+	SymbolLine(5 35 5 50 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 50 8)
+	SymbolLine(20 35 25 30 8)
+	SymbolLine(25 30 30 30 8)
+	SymbolLine(30 30 35 35 8)
+	SymbolLine(35 35 35 50 8)
+	SymbolLine(0 30 5 35 8)
+)
+Symbol('n' 12)
+(
+	SymbolLine(5 35 5 50 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 50 8)
+	SymbolLine(0 30 5 35 8)
+)
+Symbol('o' 12)
+(
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('p' 12)
+(
+	SymbolLine(5 35 5 65 8)
+	SymbolLine(0 30 5 35 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 20 30 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(10 50 20 50 8)
+	SymbolLine(5 45 10 50 8)
+)
+Symbol('q' 12)
+(
+	SymbolLine(20 35 20 65 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+)
+Symbol('r' 12)
+(
+	SymbolLine(5 35 5 50 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 20 30 8)
+	SymbolLine(0 30 5 35 8)
+)
+Symbol('s' 12)
+(
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(20 40 25 45 8)
+	SymbolLine(5 40 20 40 8)
+	SymbolLine(0 35 5 40 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('t' 10)
+(
+	SymbolLine(5 10 5 45 8)
+	SymbolLine(5 45 10 50 8)
+	SymbolLine(0 25 10 25 8)
+)
+Symbol('u' 12)
+(
+	SymbolLine(0 30 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 30 20 45 8)
+)
+Symbol('v' 12)
+(
+	SymbolLine(0 30 0 40 8)
+	SymbolLine(0 40 10 50 8)
+	SymbolLine(10 50 20 40 8)
+	SymbolLine(20 30 20 40 8)
+)
+Symbol('w' 12)
+(
+	SymbolLine(0 30 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 10 50 8)
+	SymbolLine(10 50 15 45 8)
+	SymbolLine(15 30 15 45 8)
+	SymbolLine(15 45 20 50 8)
+	SymbolLine(20 50 25 50 8)
+	SymbolLine(25 50 30 45 8)
+	SymbolLine(30 30 30 45 8)
+)
+Symbol('x' 12)
+(
+	SymbolLine(0 30 20 50 8)
+	SymbolLine(0 50 20 30 8)
+)
+Symbol('y' 12)
+(
+	SymbolLine(0 30 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(20 30 20 60 8)
+	SymbolLine(15 65 20 60 8)
+	SymbolLine(5 65 15 65 8)
+	SymbolLine(0 60 5 65 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+)
+Symbol('z' 12)
+(
+	SymbolLine(0 30 20 30 8)
+	SymbolLine(0 50 20 30 8)
+	SymbolLine(0 50 20 50 8)
+)
+Symbol('{' 12)
+(
+	SymbolLine(5 15 10 10 8)
+	SymbolLine(5 15 5 25 8)
+	SymbolLine(0 30 5 25 8)
+	SymbolLine(0 30 5 35 8)
+	SymbolLine(5 35 5 45 8)
+	SymbolLine(5 45 10 50 8)
+)
+Symbol('|' 12)
+(
+	SymbolLine(0 10 0 50 8)
+)
+Symbol('}' 12)
+(
+	SymbolLine(0 10 5 15 8)
+	SymbolLine(5 15 5 25 8)
+	SymbolLine(5 25 10 30 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(5 35 5 45 8)
+	SymbolLine(0 50 5 45 8)
+)
+Symbol('~' 12)
+(
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 10 30 8)
+	SymbolLine(10 30 15 35 8)
+	SymbolLine(15 35 20 35 8)
+	SymbolLine(20 35 25 30 8)
+)
+
+Element["" "1206" "R301" "4K7" 420000 380000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "DIL-8-300" "SW301" "unknown" 360000 380000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "4" "4" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[30000 0 6000 3000 6600 2800 "8" "8" ""]
+	ElementLine [-5000 -5000 -5000 35000 1000]
+	ElementLine [-5000 35000 35000 35000 1000]
+	ElementLine [35000 35000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR15" "unknown" 340000 380000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR14" "unknown" 310000 380000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR13" "unknown" 290000 380000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C119" "1uF" 260000 380000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_BIT_7" "unknown" 230000 380000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR12" "unknown" 210000 380000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C118" "0.1uF" 180000 380000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_BIT_6" "unknown" 160000 380000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR11" "unknown" 130000 380000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C117" "1uF" 100000 380000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_BIT_5" "unknown" 80000 380000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR10" "unknown" 50000 380000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C116" "0.1uF" 20000 380000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "C115" "1uF" 1480000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_BIT_3" "unknown" 1450000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C114" "0.1uF" 1430000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "C113" "1uF" 1400000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "C112" "0.1uF" 1370000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D129" "unknown" 1340000 300000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "RESC4532M" "R401" "unknown" 1310000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-8267 -3346 -8267 3346 7086 2000 7686 "1" "1" "square"]
+	Pad[8267 -3346 8267 3346 7086 2000 7686 "2" "2" "square"]
+	ElementLine [-3149 -6889 3149 -6889 800]
+	ElementLine [-3149 6889 3149 6889 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR9" "unknown" 1280000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C111" "10uF 10V" 1250000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D128" "unknown" 1220000 300000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR8" "unknown" 1190000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C110" "10uF 10V" 1160000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D127" "unknown" 1130000 300000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR7" "unknown" 1110000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D126" "unknown" 1080000 300000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR6" "unknown" 1050000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D125" "unknown" 1020000 300000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR5" "unknown" 990000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q129" "unknown" 970000 310000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D124" "unknown" 940000 300000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR4" "unknown" 910000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q128" "unknown" 890000 310000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D123" "unknown" 860000 300000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR3" "unknown" 830000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q127" "unknown" 810000 310000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D122" "unknown" 780000 300000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR2" "unknown" 750000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q126" "unknown" 730000 310000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D121" "unknown" 700000 300000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR1" "unknown" 670000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q125" "unknown" 650000 310000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D120" "unknown" 620000 300000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_SR0" "unknown" 590000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q124" "unknown" 570000 310000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q123" "unknown" 540000 310000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q122" "unknown" 520000 310000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q121" "unknown" 490000 310000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q120" "unknown" 470000 310000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "3352E" "R501" "2.0K" 420000 350000 0 0 0 100 ""]
+(
+	Pin[0 0 6000 2000 6600 3500 "" "1" ""]
+	Pin[20000 0 6000 2000 6600 3500 "" "2" ""]
+	Pin[10000 -40000 6000 2000 6600 3500 "" "3" ""]
+	ElementLine [-10000 10000 -10000 -50000 1000]
+	ElementLine [-10000 -50000 30000 -50000 1000]
+	ElementLine [-10000 10000 30000 10000 1000]
+	ElementLine [30000 -50000 30000 10000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_BRIGHT" "unknown" 400000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "TESTPT_42" "TP_GND4" "unknown" 370000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "CONNECTOR-6-1" "ICSP201" "unknown" 350000 300000 11000 -5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3000 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 3000 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 3000 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 3000 "4" "4" ""]
+	Pin[0 40000 6000 3000 6600 3000 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 3000 "6" "6" ""]
+	ElementLine [-5000 -5000 -5000 55000 2000]
+	ElementLine [-5000 55000 5000 55000 2000]
+	ElementLine [5000 55000 5000 -5000 2000]
+	ElementLine [5000 -5000 -5000 -5000 2000]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_GND1" "unknown" 330000 300000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C109" "10uF 10V" 300000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT223" "U119" "unknown" 250000 330000 25300 -32900 3 100 ""]
+(
+	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "square,edge2"]
+	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "square,edge2"]
+	Pad[18100 -3300 18100 3300 5600 3000 6200 "3" "3" "square,edge2"]
+	Pad[4500 -24400 13500 -24400 12200 3000 12800 "4" "4" "square"]
+	ElementLine [-5200 -32900 -5200 8500 1000]
+	ElementLine [-5200 8500 23300 8500 1000]
+	ElementLine [23300 8500 23300 -32900 1000]
+	ElementLine [23300 -32900 -5200 -32900 1000]
+
+	)
+
+Element["" "1206" "C108" "10uF 10V" 230000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT223" "U118" "unknown" 190000 330000 25300 -32900 3 100 ""]
+(
+	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "square,edge2"]
+	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "square,edge2"]
+	Pad[18100 -3300 18100 3300 5600 3000 6200 "3" "3" "square,edge2"]
+	Pad[4500 -24400 13500 -24400 12200 3000 12800 "4" "4" "square"]
+	ElementLine [-5200 -32900 -5200 8500 1000]
+	ElementLine [-5200 8500 23300 8500 1000]
+	ElementLine [23300 8500 23300 -32900 1000]
+	ElementLine [23300 -32900 -5200 -32900 1000]
+
+	)
+
+Element["" "1206" "C107" "10uF 10V" 160000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT223" "U117" "unknown" 120000 330000 25300 -32900 3 100 ""]
+(
+	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "square,edge2"]
+	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "square,edge2"]
+	Pad[18100 -3300 18100 3300 5600 3000 6200 "3" "3" "square,edge2"]
+	Pad[4500 -24400 13500 -24400 12200 3000 12800 "4" "4" "square"]
+	ElementLine [-5200 -32900 -5200 8500 1000]
+	ElementLine [-5200 8500 23300 8500 1000]
+	ElementLine [23300 8500 23300 -32900 1000]
+	ElementLine [23300 -32900 -5200 -32900 1000]
+
+	)
+
+Element["" "1206" "C106" "10uF 10V" 90000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "C105" "10uF 10V" 60000 300000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT223" "U116" "unknown" 20000 330000 25300 -32900 3 100 ""]
+(
+	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "square,edge2"]
+	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "square,edge2"]
+	Pad[18100 -3300 18100 3300 5600 3000 6200 "3" "3" "square,edge2"]
+	Pad[4500 -24400 13500 -24400 12200 3000 12800 "4" "4" "square"]
+	ElementLine [-5200 -32900 -5200 8500 1000]
+	ElementLine [-5200 8500 23300 8500 1000]
+	ElementLine [23300 8500 23300 -32900 1000]
+	ElementLine [23300 -32900 -5200 -32900 1000]
+
+	)
+
+Element["" "1206" "C104" "10uF 10V" 1470000 200000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT223" "U115" "unknown" 1430000 230000 25300 -32900 3 100 ""]
+(
+	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "square,edge2"]
+	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "square,edge2"]
+	Pad[18100 -3300 18100 3300 5600 3000 6200 "3" "3" "square,edge2"]
+	Pad[4500 -24400 13500 -24400 12200 3000 12800 "4" "4" "square"]
+	ElementLine [-5200 -32900 -5200 8500 1000]
+	ElementLine [-5200 8500 23300 8500 1000]
+	ElementLine [23300 8500 23300 -32900 1000]
+	ElementLine [23300 -32900 -5200 -32900 1000]
+
+	)
+
+Element["" "1206" "C103" "0.1uF" 1400000 200000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT223" "U114" "unknown" 1360000 230000 25300 -32900 3 100 ""]
+(
+	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "square,edge2"]
+	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "square,edge2"]
+	Pad[18100 -3300 18100 3300 5600 3000 6200 "3" "3" "square,edge2"]
+	Pad[4500 -24400 13500 -24400 12200 3000 12800 "4" "4" "square"]
+	ElementLine [-5200 -32900 -5200 8500 1000]
+	ElementLine [-5200 8500 23300 8500 1000]
+	ElementLine [23300 8500 23300 -32900 1000]
+	ElementLine [23300 -32900 -5200 -32900 1000]
+
+	)
+
+Element["" "1206" "C102" "0.1uF" 1330000 200000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D119" "unknown" 1300000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT223" "U113" "unknown" 1260000 230000 25300 -32900 3 100 ""]
+(
+	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "square,edge2"]
+	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "square,edge2"]
+	Pad[18100 -3300 18100 3300 5600 3000 6200 "3" "3" "square,edge2"]
+	Pad[4500 -24400 13500 -24400 12200 3000 12800 "4" "4" "square"]
+	ElementLine [-5200 -32900 -5200 8500 1000]
+	ElementLine [-5200 8500 23300 8500 1000]
+	ElementLine [23300 8500 23300 -32900 1000]
+	ElementLine [23300 -32900 -5200 -32900 1000]
+
+	)
+
+Element["" "1206" "C101" "0.1uF" 1230000 200000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D118" "unknown" 1200000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT223" "U112" "unknown" 1160000 230000 25300 -32900 3 100 ""]
+(
+	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "square,edge2"]
+	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "square,edge2"]
+	Pad[18100 -3300 18100 3300 5600 3000 6200 "3" "3" "square,edge2"]
+	Pad[4500 -24400 13500 -24400 12200 3000 12800 "4" "4" "square"]
+	ElementLine [-5200 -32900 -5200 8500 1000]
+	ElementLine [-5200 8500 23300 8500 1000]
+	ElementLine [23300 8500 23300 -32900 1000]
+	ElementLine [23300 -32900 -5200 -32900 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D117" "unknown" 1130000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "OSC14" "U111" "64mhz" 1070000 210000 17000 20000 3 100 ""]
+(
+	Pin[0 0 5000 3000 5600 2000 "NC" "1" ""]
+	Pin[0 60000 5000 3000 5600 2000 "GND" "2" ""]
+	Pin[30000 60000 5000 3000 5600 2000 "CLK" "3" ""]
+	Pin[30000 0 5000 3000 5600 2000 "VCC" "4" ""]
+	ElementLine [-9500 -9500 30000 -9500 1000]
+	ElementLine [39500 0 39500 60000 1000]
+	ElementLine [30000 69500 0 69500 1000]
+	ElementLine [-9500 60000 -9500 -9500 1000]
+	ElementLine [0 -4000 30000 -4000 1000]
+	ElementLine [34000 0 34000 60000 1000]
+	ElementLine [30000 64000 0 64000 1000]
+	ElementLine [-4000 60000 -4000 0 1000]
+	ElementArc [30000 0 9500 9500 180 90 1000]
+	ElementArc [30000 60000 9500 9500 90 90 1000]
+	ElementArc [0 60000 9500 9500 0 90 1000]
+	ElementArc [30000 0 4000 4000 180 90 1000]
+	ElementArc [30000 60000 4000 4000 90 90 1000]
+	ElementArc [0 60000 4000 4000 0 90 1000]
+	ElementArc [0 0 4000 4000 270 90 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D116" "unknown" 1040000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SO20W" "U110" "unknown" 1000000 230000 -2000 -6000 0 100 ""]
+(
+	Pad[-21000 -22500 -15000 -22500 2000 1000 3000 "1" "1" "square"]
+	Pad[-21000 -17500 -15000 -17500 2000 1000 3000 "2" "2" "square"]
+	Pad[-21000 -12500 -15000 -12500 2000 1000 3000 "3" "3" "square"]
+	Pad[-21000 -7500 -15000 -7500 2000 1000 3000 "4" "4" "square"]
+	Pad[-21000 -2500 -15000 -2500 2000 1000 3000 "5" "5" "square"]
+	Pad[-21000 2500 -15000 2500 2000 1000 3000 "6" "6" "square"]
+	Pad[-21000 7500 -15000 7500 2000 1000 3000 "7" "7" "square"]
+	Pad[-21000 12500 -15000 12500 2000 1000 3000 "8" "8" "square"]
+	Pad[-21000 17500 -15000 17500 2000 1000 3000 "9" "9" "square"]
+	Pad[-21000 22500 -15000 22500 2000 1000 3000 "10" "10" "square"]
+	Pad[15000 22500 21000 22500 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[15000 17500 21000 17500 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[15000 12500 21000 12500 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[15000 7500 21000 7500 2000 1000 3000 "14" "14" "square,edge2"]
+	Pad[15000 2500 21000 2500 2000 1000 3000 "15" "15" "square,edge2"]
+	Pad[15000 -2500 21000 -2500 2000 1000 3000 "16" "16" "found,square,edge2"]
+	Pad[15000 -7500 21000 -7500 2000 1000 3000 "17" "17" "square,edge2"]
+	Pad[15000 -12500 21000 -12500 2000 1000 3000 "18" "18" "square,edge2"]
+	Pad[15000 -17500 21000 -17500 2000 1000 3000 "19" "19" "square,edge2"]
+	Pad[15000 -22500 21000 -22500 2000 1000 3000 "20" "20" "square,edge2"]
+	ElementLine [-23000 -24500 -23000 24500 1000]
+	ElementLine [-23000 24500 23000 24500 1000]
+	ElementLine [23000 24500 23000 -24500 1000]
+	ElementLine [-23000 -24500 -2500 -24500 1000]
+	ElementLine [23000 -24500 2500 -24500 1000]
+	ElementArc [0 -24500 2500 2500 0 180 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D115" "unknown" 950000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q119" "unknown" 920000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D114" "unknown" 900000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q118" "unknown" 870000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D113" "unknown" 840000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q117" "unknown" 810000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D112" "unknown" 790000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D111" "unknown" 760000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q116" "unknown" 730000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D110" "unknown" 700000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q115" "unknown" 670000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q114" "unknown" 650000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_Y7" "unknown" 630000 210000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q113" "unknown" 600000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_Y6" "unknown" 580000 210000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q112" "unknown" 550000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_Y5" "unknown" 530000 210000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D164" "unknown" 500000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q111" "unknown" 470000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_Y4" "unknown" 450000 210000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D163" "unknown" 420000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q110" "unknown" 390000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_Y3" "unknown" 370000 210000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D162" "unknown" 340000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_Y2" "unknown" 310000 210000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D161" "unknown" 280000 210000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_Y1" "unknown" 260000 210000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D160" "unknown" 87500 230000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_Y0" "unknown" 200000 210000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q164" "unknown" 170000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q163" "unknown" 150000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q162" "unknown" 120000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q161" "unknown" 100000 210000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q160" "unknown" 92500 205000 -12300 11000 1 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "found,square"]
+	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "square"]
+	Pad[-3900 7900 -3900 8500 3400 3000 4000 "3" "3" "square,edge2"]
+	ElementLine [2500 -2900 2500 11000 1000]
+	ElementLine [-10300 -2900 2500 -2900 1000]
+	ElementLine [-10300 -2900 -10300 11000 1000]
+	ElementLine [-10300 11000 2500 11000 1000]
+
+	)
+
+Element["" "SO20W" "U109" "unknown" 40000 230000 -2000 -6000 0 100 ""]
+(
+	Pad[-21000 -22500 -15000 -22500 2000 1000 3000 "1" "1" "square"]
+	Pad[-21000 -17500 -15000 -17500 2000 1000 3000 "2" "2" "square"]
+	Pad[-21000 -12500 -15000 -12500 2000 1000 3000 "3" "3" "square"]
+	Pad[-21000 -7500 -15000 -7500 2000 1000 3000 "4" "4" "square"]
+	Pad[-21000 -2500 -15000 -2500 2000 1000 3000 "5" "5" "square"]
+	Pad[-21000 2500 -15000 2500 2000 1000 3000 "6" "6" "square"]
+	Pad[-21000 7500 -15000 7500 2000 1000 3000 "7" "7" "square"]
+	Pad[-21000 12500 -15000 12500 2000 1000 3000 "8" "8" "square"]
+	Pad[-21000 17500 -15000 17500 2000 1000 3000 "9" "9" "square"]
+	Pad[-21000 22500 -15000 22500 2000 1000 3000 "10" "10" "square"]
+	Pad[15000 22500 21000 22500 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[15000 17500 21000 17500 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[15000 12500 21000 12500 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[15000 7500 21000 7500 2000 1000 3000 "14" "14" "square,edge2"]
+	Pad[15000 2500 21000 2500 2000 1000 3000 "15" "15" "square,edge2"]
+	Pad[15000 -2500 21000 -2500 2000 1000 3000 "16" "16" "square,edge2"]
+	Pad[15000 -7500 21000 -7500 2000 1000 3000 "17" "17" "square,edge2"]
+	Pad[15000 -12500 21000 -12500 2000 1000 3000 "18" "18" "square,edge2"]
+	Pad[15000 -17500 21000 -17500 2000 1000 3000 "19" "19" "square,edge2"]
+	Pad[15000 -22500 21000 -22500 2000 1000 3000 "20" "20" "square,edge2"]
+	ElementLine [-23000 -24500 -23000 24500 1000]
+	ElementLine [-23000 24500 23000 24500 1000]
+	ElementLine [23000 24500 23000 -24500 1000]
+	ElementLine [-23000 -24500 -2500 -24500 1000]
+	ElementLine [23000 -24500 2500 -24500 1000]
+	ElementArc [0 -24500 2500 2500 0 180 1000]
+
+	)
+
+Element["" "SO20W" "U108" "unknown" 1410000 160000 -2000 -6000 0 100 ""]
+(
+	Pad[-21000 -22500 -15000 -22500 2000 1000 3000 "1" "1" "square"]
+	Pad[-21000 -17500 -15000 -17500 2000 1000 3000 "2" "2" "square"]
+	Pad[-21000 -12500 -15000 -12500 2000 1000 3000 "3" "3" "square"]
+	Pad[-21000 -7500 -15000 -7500 2000 1000 3000 "4" "4" "square"]
+	Pad[-21000 -2500 -15000 -2500 2000 1000 3000 "5" "5" "square"]
+	Pad[-21000 2500 -15000 2500 2000 1000 3000 "6" "6" "square"]
+	Pad[-21000 7500 -15000 7500 2000 1000 3000 "7" "7" "square"]
+	Pad[-21000 12500 -15000 12500 2000 1000 3000 "8" "8" "square"]
+	Pad[-21000 17500 -15000 17500 2000 1000 3000 "9" "9" "square"]
+	Pad[-21000 22500 -15000 22500 2000 1000 3000 "10" "10" "square"]
+	Pad[15000 22500 21000 22500 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[15000 17500 21000 17500 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[15000 12500 21000 12500 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[15000 7500 21000 7500 2000 1000 3000 "14" "14" "square,edge2"]
+	Pad[15000 2500 21000 2500 2000 1000 3000 "15" "15" "square,edge2"]
+	Pad[15000 -2500 21000 -2500 2000 1000 3000 "16" "16" "square,edge2"]
+	Pad[15000 -7500 21000 -7500 2000 1000 3000 "17" "17" "square,edge2"]
+	Pad[15000 -12500 21000 -12500 2000 1000 3000 "18" "18" "square,edge2"]
+	Pad[15000 -17500 21000 -17500 2000 1000 3000 "19" "19" "square,edge2"]
+	Pad[15000 -22500 21000 -22500 2000 1000 3000 "20" "20" "square,edge2"]
+	ElementLine [-23000 -24500 -23000 24500 1000]
+	ElementLine [-23000 24500 23000 24500 1000]
+	ElementLine [23000 24500 23000 -24500 1000]
+	ElementLine [-23000 -24500 -2500 -24500 1000]
+	ElementLine [23000 -24500 2500 -24500 1000]
+	ElementArc [0 -24500 2500 2500 0 180 1000]
+
+	)
+
+Element["" "SO20W" "U107" "unknown" 1360000 160000 -2000 -6000 0 100 ""]
+(
+	Pad[-21000 -22500 -15000 -22500 2000 1000 3000 "1" "1" "square"]
+	Pad[-21000 -17500 -15000 -17500 2000 1000 3000 "2" "2" "square"]
+	Pad[-21000 -12500 -15000 -12500 2000 1000 3000 "3" "3" "square"]
+	Pad[-21000 -7500 -15000 -7500 2000 1000 3000 "4" "4" "square"]
+	Pad[-21000 -2500 -15000 -2500 2000 1000 3000 "5" "5" "square"]
+	Pad[-21000 2500 -15000 2500 2000 1000 3000 "6" "6" "square"]
+	Pad[-21000 7500 -15000 7500 2000 1000 3000 "7" "7" "square"]
+	Pad[-21000 12500 -15000 12500 2000 1000 3000 "8" "8" "square"]
+	Pad[-21000 17500 -15000 17500 2000 1000 3000 "9" "9" "square"]
+	Pad[-21000 22500 -15000 22500 2000 1000 3000 "10" "10" "square"]
+	Pad[15000 22500 21000 22500 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[15000 17500 21000 17500 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[15000 12500 21000 12500 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[15000 7500 21000 7500 2000 1000 3000 "14" "14" "square,edge2"]
+	Pad[15000 2500 21000 2500 2000 1000 3000 "15" "15" "square,edge2"]
+	Pad[15000 -2500 21000 -2500 2000 1000 3000 "16" "16" "square,edge2"]
+	Pad[15000 -7500 21000 -7500 2000 1000 3000 "17" "17" "square,edge2"]
+	Pad[15000 -12500 21000 -12500 2000 1000 3000 "18" "18" "square,edge2"]
+	Pad[15000 -17500 21000 -17500 2000 1000 3000 "19" "19" "square,edge2"]
+	Pad[15000 -22500 21000 -22500 2000 1000 3000 "20" "20" "square,edge2"]
+	ElementLine [-23000 -24500 -23000 24500 1000]
+	ElementLine [-23000 24500 23000 24500 1000]
+	ElementLine [23000 24500 23000 -24500 1000]
+	ElementLine [-23000 -24500 -2500 -24500 1000]
+	ElementLine [23000 -24500 2500 -24500 1000]
+	ElementArc [0 -24500 2500 2500 0 180 1000]
+
+	)
+
+Element["" "SO20W" "U106" "unknown" 1300000 160000 -2000 -6000 0 100 ""]
+(
+	Pad[-21000 -22500 -15000 -22500 2000 1000 3000 "1" "1" "square"]
+	Pad[-21000 -17500 -15000 -17500 2000 1000 3000 "2" "2" "square"]
+	Pad[-21000 -12500 -15000 -12500 2000 1000 3000 "3" "3" "square"]
+	Pad[-21000 -7500 -15000 -7500 2000 1000 3000 "4" "4" "square"]
+	Pad[-21000 -2500 -15000 -2500 2000 1000 3000 "5" "5" "square"]
+	Pad[-21000 2500 -15000 2500 2000 1000 3000 "6" "6" "square"]
+	Pad[-21000 7500 -15000 7500 2000 1000 3000 "7" "7" "square"]
+	Pad[-21000 12500 -15000 12500 2000 1000 3000 "8" "8" "square"]
+	Pad[-21000 17500 -15000 17500 2000 1000 3000 "9" "9" "square"]
+	Pad[-21000 22500 -15000 22500 2000 1000 3000 "10" "10" "square"]
+	Pad[15000 22500 21000 22500 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[15000 17500 21000 17500 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[15000 12500 21000 12500 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[15000 7500 21000 7500 2000 1000 3000 "14" "14" "square,edge2"]
+	Pad[15000 2500 21000 2500 2000 1000 3000 "15" "15" "square,edge2"]
+	Pad[15000 -2500 21000 -2500 2000 1000 3000 "16" "16" "square,edge2"]
+	Pad[15000 -7500 21000 -7500 2000 1000 3000 "17" "17" "square,edge2"]
+	Pad[15000 -12500 21000 -12500 2000 1000 3000 "18" "18" "square,edge2"]
+	Pad[15000 -17500 21000 -17500 2000 1000 3000 "19" "19" "square,edge2"]
+	Pad[15000 -22500 21000 -22500 2000 1000 3000 "20" "20" "square,edge2"]
+	ElementLine [-23000 -24500 -23000 24500 1000]
+	ElementLine [-23000 24500 23000 24500 1000]
+	ElementLine [23000 24500 23000 -24500 1000]
+	ElementLine [-23000 -24500 -2500 -24500 1000]
+	ElementLine [23000 -24500 2500 -24500 1000]
+	ElementArc [0 -24500 2500 2500 0 180 1000]
+
+	)
+
+Element["" "SO20W" "U105" "unknown" 1240000 160000 -2000 -6000 0 100 ""]
+(
+	Pad[-21000 -22500 -15000 -22500 2000 1000 3000 "1" "1" "square"]
+	Pad[-21000 -17500 -15000 -17500 2000 1000 3000 "2" "2" "square"]
+	Pad[-21000 -12500 -15000 -12500 2000 1000 3000 "3" "3" "square"]
+	Pad[-21000 -7500 -15000 -7500 2000 1000 3000 "4" "4" "square"]
+	Pad[-21000 -2500 -15000 -2500 2000 1000 3000 "5" "5" "square"]
+	Pad[-21000 2500 -15000 2500 2000 1000 3000 "6" "6" "square"]
+	Pad[-21000 7500 -15000 7500 2000 1000 3000 "7" "7" "square"]
+	Pad[-21000 12500 -15000 12500 2000 1000 3000 "8" "8" "square"]
+	Pad[-21000 17500 -15000 17500 2000 1000 3000 "9" "9" "square"]
+	Pad[-21000 22500 -15000 22500 2000 1000 3000 "10" "10" "square"]
+	Pad[15000 22500 21000 22500 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[15000 17500 21000 17500 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[15000 12500 21000 12500 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[15000 7500 21000 7500 2000 1000 3000 "14" "14" "square,edge2"]
+	Pad[15000 2500 21000 2500 2000 1000 3000 "15" "15" "square,edge2"]
+	Pad[15000 -2500 21000 -2500 2000 1000 3000 "16" "16" "square,edge2"]
+	Pad[15000 -7500 21000 -7500 2000 1000 3000 "17" "17" "square,edge2"]
+	Pad[15000 -12500 21000 -12500 2000 1000 3000 "18" "18" "square,edge2"]
+	Pad[15000 -17500 21000 -17500 2000 1000 3000 "19" "19" "square,edge2"]
+	Pad[15000 -22500 21000 -22500 2000 1000 3000 "20" "20" "square,edge2"]
+	ElementLine [-23000 -24500 -23000 24500 1000]
+	ElementLine [-23000 24500 23000 24500 1000]
+	ElementLine [23000 24500 23000 -24500 1000]
+	ElementLine [-23000 -24500 -2500 -24500 1000]
+	ElementLine [23000 -24500 2500 -24500 1000]
+	ElementArc [0 -24500 2500 2500 0 180 1000]
+
+	)
+
+Element["" "SO20W" "U104" "unknown" 1190000 160000 -2000 -6000 0 100 ""]
+(
+	Pad[-21000 -22500 -15000 -22500 2000 1000 3000 "1" "1" "square"]
+	Pad[-21000 -17500 -15000 -17500 2000 1000 3000 "2" "2" "square"]
+	Pad[-21000 -12500 -15000 -12500 2000 1000 3000 "3" "3" "square"]
+	Pad[-21000 -7500 -15000 -7500 2000 1000 3000 "4" "4" "square"]
+	Pad[-21000 -2500 -15000 -2500 2000 1000 3000 "5" "5" "square"]
+	Pad[-21000 2500 -15000 2500 2000 1000 3000 "6" "6" "square"]
+	Pad[-21000 7500 -15000 7500 2000 1000 3000 "7" "7" "square"]
+	Pad[-21000 12500 -15000 12500 2000 1000 3000 "8" "8" "square"]
+	Pad[-21000 17500 -15000 17500 2000 1000 3000 "9" "9" "square"]
+	Pad[-21000 22500 -15000 22500 2000 1000 3000 "10" "10" "square"]
+	Pad[15000 22500 21000 22500 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[15000 17500 21000 17500 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[15000 12500 21000 12500 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[15000 7500 21000 7500 2000 1000 3000 "14" "14" "square,edge2"]
+	Pad[15000 2500 21000 2500 2000 1000 3000 "15" "15" "square,edge2"]
+	Pad[15000 -2500 21000 -2500 2000 1000 3000 "16" "16" "square,edge2"]
+	Pad[15000 -7500 21000 -7500 2000 1000 3000 "17" "17" "square,edge2"]
+	Pad[15000 -12500 21000 -12500 2000 1000 3000 "18" "18" "square,edge2"]
+	Pad[15000 -17500 21000 -17500 2000 1000 3000 "19" "19" "square,edge2"]
+	Pad[15000 -22500 21000 -22500 2000 1000 3000 "20" "20" "square,edge2"]
+	ElementLine [-23000 -24500 -23000 24500 1000]
+	ElementLine [-23000 24500 23000 24500 1000]
+	ElementLine [23000 24500 23000 -24500 1000]
+	ElementLine [-23000 -24500 -2500 -24500 1000]
+	ElementLine [23000 -24500 2500 -24500 1000]
+	ElementArc [0 -24500 2500 2500 0 180 1000]
+
+	)
+
+Element["" "CAPC3225N" "C305" "100uF 10V" 1140000 140000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -2755 -5905 2755 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -2755 5905 2755 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-1968 -5314 1968 -5314 800]
+	ElementLine [-1968 5314 1968 5314 800]
+
+	)
+
+Element["" "SO20W" "U103" "unknown" 1100000 160000 -2000 -6000 0 100 ""]
+(
+	Pad[-21000 -22500 -15000 -22500 2000 1000 3000 "1" "1" "square"]
+	Pad[-21000 -17500 -15000 -17500 2000 1000 3000 "2" "2" "square"]
+	Pad[-21000 -12500 -15000 -12500 2000 1000 3000 "3" "3" "square"]
+	Pad[-21000 -7500 -15000 -7500 2000 1000 3000 "4" "4" "square"]
+	Pad[-21000 -2500 -15000 -2500 2000 1000 3000 "5" "5" "square"]
+	Pad[-21000 2500 -15000 2500 2000 1000 3000 "6" "6" "square"]
+	Pad[-21000 7500 -15000 7500 2000 1000 3000 "7" "7" "square"]
+	Pad[-21000 12500 -15000 12500 2000 1000 3000 "8" "8" "square"]
+	Pad[-21000 17500 -15000 17500 2000 1000 3000 "9" "9" "square"]
+	Pad[-21000 22500 -15000 22500 2000 1000 3000 "10" "10" "square"]
+	Pad[15000 22500 21000 22500 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[15000 17500 21000 17500 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[15000 12500 21000 12500 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[15000 7500 21000 7500 2000 1000 3000 "14" "14" "square,edge2"]
+	Pad[15000 2500 21000 2500 2000 1000 3000 "15" "15" "square,edge2"]
+	Pad[15000 -2500 21000 -2500 2000 1000 3000 "16" "16" "square,edge2"]
+	Pad[15000 -7500 21000 -7500 2000 1000 3000 "17" "17" "square,edge2"]
+	Pad[15000 -12500 21000 -12500 2000 1000 3000 "18" "18" "square,edge2"]
+	Pad[15000 -17500 21000 -17500 2000 1000 3000 "19" "19" "square,edge2"]
+	Pad[15000 -22500 21000 -22500 2000 1000 3000 "20" "20" "square,edge2"]
+	ElementLine [-23000 -24500 -23000 24500 1000]
+	ElementLine [-23000 24500 23000 24500 1000]
+	ElementLine [23000 24500 23000 -24500 1000]
+	ElementLine [-23000 -24500 -2500 -24500 1000]
+	ElementLine [23000 -24500 2500 -24500 1000]
+	ElementArc [0 -24500 2500 2500 0 180 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D109" "unknown" 1060000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "CAPC3225N" "C304" "100uF 10V" 1030000 140000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -2755 -5905 2755 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -2755 5905 2755 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-1968 -5314 1968 -5314 800]
+	ElementLine [-1968 5314 1968 5314 800]
+
+	)
+
+Element["" "SO14" "U102" "unknown" 990000 160000 -2000 -6000 0 100 ""]
+(
+	Pad[-13500 -15000 -7000 -15000 2000 1000 3000 "1" "1" "square"]
+	Pad[-13500 -10000 -7000 -10000 2000 1000 3000 "2" "2" "square"]
+	Pad[-13500 -5000 -7000 -5000 2000 1000 3000 "3" "3" "square"]
+	Pad[-13500 0 -7000 0 2000 1000 3000 "4" "4" "square"]
+	Pad[-13500 5000 -7000 5000 2000 1000 3000 "5" "5" "square"]
+	Pad[-13500 10000 -7000 10000 2000 1000 3000 "6" "6" "square"]
+	Pad[-13500 15000 -7000 15000 2000 1000 3000 "7" "7" "square"]
+	Pad[7000 15000 13500 15000 2000 1000 3000 "8" "8" "square,edge2"]
+	Pad[7000 10000 13500 10000 2000 1000 3000 "9" "9" "square,edge2"]
+	Pad[7000 5000 13500 5000 2000 1000 3000 "10" "10" "square,edge2"]
+	Pad[7000 0 13500 0 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[7000 -5000 13500 -5000 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[7000 -10000 13500 -10000 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[7000 -15000 13500 -15000 2000 1000 3000 "14" "14" "square,edge2"]
+	ElementLine [-15500 -17000 -15500 17000 1000]
+	ElementLine [-15500 17000 15500 17000 1000]
+	ElementLine [15500 17000 15500 -17000 1000]
+	ElementLine [-15500 -17000 -2500 -17000 1000]
+	ElementLine [15500 -17000 2500 -17000 1000]
+	ElementArc [0 -17000 2500 2500 0 180 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D108" "unknown" 950000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_VRAW" "unknown" 930000 140000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "CAPC3225N" "C303" "100uF 10V" 900000 140000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -2755 -5905 2755 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -2755 5905 2755 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-1968 -5314 1968 -5314 800]
+	ElementLine [-1968 5314 1968 5314 800]
+
+	)
+
+Element["" "SO14" "U101" "unknown" 860000 160000 -2000 -6000 0 100 ""]
+(
+	Pad[-13500 -15000 -7000 -15000 2000 1000 3000 "1" "1" "square"]
+	Pad[-13500 -10000 -7000 -10000 2000 1000 3000 "2" "2" "square"]
+	Pad[-13500 -5000 -7000 -5000 2000 1000 3000 "3" "3" "square"]
+	Pad[-13500 0 -7000 0 2000 1000 3000 "4" "4" "square"]
+	Pad[-13500 5000 -7000 5000 2000 1000 3000 "5" "5" "square"]
+	Pad[-13500 10000 -7000 10000 2000 1000 3000 "6" "6" "square"]
+	Pad[-13500 15000 -7000 15000 2000 1000 3000 "7" "7" "square"]
+	Pad[7000 15000 13500 15000 2000 1000 3000 "8" "8" "square,edge2"]
+	Pad[7000 10000 13500 10000 2000 1000 3000 "9" "9" "square,edge2"]
+	Pad[7000 5000 13500 5000 2000 1000 3000 "10" "10" "square,edge2"]
+	Pad[7000 0 13500 0 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[7000 -5000 13500 -5000 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[7000 -10000 13500 -10000 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[7000 -15000 13500 -15000 2000 1000 3000 "14" "14" "square,edge2"]
+	ElementLine [-15500 -17000 -15500 17000 1000]
+	ElementLine [-15500 17000 15500 17000 1000]
+	ElementLine [15500 17000 15500 -17000 1000]
+	ElementLine [-15500 -17000 -2500 -17000 1000]
+	ElementLine [15500 -17000 2500 -17000 1000]
+	ElementArc [0 -17000 2500 2500 0 180 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D107" "unknown" 830000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "1206" "C302" "0.1uF" 800000 140000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D106" "unknown" 770000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_BIT2" "unknown" 740000 140000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C301" "0.1uF" 710000 140000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D105" "unknown" 680000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_BIT1" "unknown" 650000 140000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D104" "unknown" 630000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q109" "unknown" 600000 150000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_BIT0" "unknown" 570000 140000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D103" "unknown" 550000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q108" "unknown" 520000 150000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D102" "unknown" 490000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q107" "unknown" 460000 150000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D159" "unknown" 440000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D101" "unknown" 410000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q106" "unknown" 370000 150000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D158" "unknown" 350000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q105" "unknown" 320000 150000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D157" "unknown" 290000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q104" "unknown" 260000 150000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D156" "unknown" 240000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q103" "unknown" 210000 150000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q102" "unknown" 180000 150000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D155" "unknown" 160000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q159" "unknown" 130000 150000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q101" "unknown" 100000 150000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D154" "unknown" 80000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q158" "unknown" 50000 150000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D153" "unknown" 30000 140000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q157" "unknown" 1460000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "1206" "R116" "f78a9q" 1440000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D152" "unknown" 1410000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q156" "unknown" 1380000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "1206" "R115" "f78a9b" 1350000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D151" "unknown" 1320000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q155" "unknown" 1290000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "1206" "R114" "f78a9q" 1270000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D150" "unknown" 1240000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "1206" "C404" "10uF 10V" 1210000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT23" "Q154" "unknown" 1180000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "1206" "R113" "f78a9b" 1160000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "C403" "0.1uF" 1130000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT23" "Q153" "unknown" 1100000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "1206" "R112" "f78a9q" 1070000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "C402" "0.1uF" 1040000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT23" "Q152" "unknown" 1010000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "1206" "R111" "f78a9b" 990000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "C401" "1uF" 960000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT23" "Q151" "unknown" 930000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "1206" "R110" "f78a9q" 910000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT23" "Q150" "unknown" 880000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SO16" "U302" "unknown" 850000 90000 -2000 -6000 0 100 ""]
+(
+	Pad[-13500 -17500 -7000 -17500 2000 1000 3000 "1" "1" "square"]
+	Pad[-13500 -12500 -7000 -12500 2000 1000 3000 "2" "2" "square"]
+	Pad[-13500 -7500 -7000 -7500 2000 1000 3000 "3" "3" "square"]
+	Pad[-13500 -2500 -7000 -2500 2000 1000 3000 "4" "4" "square"]
+	Pad[-13500 2500 -7000 2500 2000 1000 3000 "5" "5" "square"]
+	Pad[-13500 7500 -7000 7500 2000 1000 3000 "6" "6" "square"]
+	Pad[-13500 12500 -7000 12500 2000 1000 3000 "7" "7" "square"]
+	Pad[-13500 17500 -7000 17500 2000 1000 3000 "8" "8" "square"]
+	Pad[7000 17500 13500 17500 2000 1000 3000 "9" "9" "square,edge2"]
+	Pad[7000 12500 13500 12500 2000 1000 3000 "10" "10" "square,edge2"]
+	Pad[7000 7500 13500 7500 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[7000 2500 13500 2500 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[7000 -2500 13500 -2500 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[7000 -7500 13500 -7500 2000 1000 3000 "14" "14" "square,edge2"]
+	Pad[7000 -12500 13500 -12500 2000 1000 3000 "15" "15" "square,edge2"]
+	Pad[7000 -17500 13500 -17500 2000 1000 3000 "16" "16" "square,edge2"]
+	ElementLine [-15500 -19500 -15500 19500 1000]
+	ElementLine [-15500 19500 15500 19500 1000]
+	ElementLine [15500 19500 15500 -19500 1000]
+	ElementLine [-15500 -19500 -2500 -19500 1000]
+	ElementLine [15500 -19500 2500 -19500 1000]
+	ElementArc [0 -19500 2500 2500 0 180 1000]
+
+	)
+
+Element["" "SO18W" "U301" "unknown" 800000 100000 -2000 -6000 0 100 ""]
+(
+	Pad[-21000 -20000 -15000 -20000 2000 1000 3000 "1" "1" "square"]
+	Pad[-21000 -15000 -15000 -15000 2000 1000 3000 "2" "2" "square"]
+	Pad[-21000 -10000 -15000 -10000 2000 1000 3000 "3" "3" "square"]
+	Pad[-21000 -5000 -15000 -5000 2000 1000 3000 "4" "4" "square"]
+	Pad[-21000 0 -15000 0 2000 1000 3000 "5" "5" "square"]
+	Pad[-21000 5000 -15000 5000 2000 1000 3000 "6" "6" "square"]
+	Pad[-21000 10000 -15000 10000 2000 1000 3000 "7" "7" "square"]
+	Pad[-21000 15000 -15000 15000 2000 1000 3000 "8" "8" "square"]
+	Pad[-21000 20000 -15000 20000 2000 1000 3000 "9" "9" "square"]
+	Pad[15000 20000 21000 20000 2000 1000 3000 "10" "10" "square,edge2"]
+	Pad[15000 15000 21000 15000 2000 1000 3000 "11" "11" "square,edge2"]
+	Pad[15000 10000 21000 10000 2000 1000 3000 "12" "12" "square,edge2"]
+	Pad[15000 5000 21000 5000 2000 1000 3000 "13" "13" "square,edge2"]
+	Pad[15000 0 21000 0 2000 1000 3000 "14" "14" "square,edge2"]
+	Pad[15000 -5000 21000 -5000 2000 1000 3000 "15" "15" "square,edge2"]
+	Pad[15000 -10000 21000 -10000 2000 1000 3000 "16" "16" "square,edge2"]
+	Pad[15000 -15000 21000 -15000 2000 1000 3000 "17" "17" "square,edge2"]
+	Pad[15000 -20000 21000 -20000 2000 1000 3000 "18" "18" "square,edge2"]
+	ElementLine [-23000 -22000 -23000 22000 1000]
+	ElementLine [-23000 22000 23000 22000 1000]
+	ElementLine [23000 22000 23000 -22000 1000]
+	ElementLine [-23000 -22000 -2500 -22000 1000]
+	ElementLine [23000 -22000 2500 -22000 1000]
+	ElementArc [0 -22000 2500 2500 0 180 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_PWM" "unknown" 760000 80000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D149" "unknown" 730000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D148" "unknown" 700000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D147" "unknown" 670000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOD123" "D301" "unknown" 640000 80000 12000 0 3 100 ""]
+(
+	Pad[-5500 -600 -5500 600 6900 2000 7500 "1" "1" "square"]
+	Pad[5500 -600 5500 600 6900 2000 7500 "2" "2" "square"]
+	ElementLine [-11000 -4000 -11000 4000 2000]
+	ElementLine [-11000 4000 -7600 5100 1000]
+	ElementLine [-7600 5100 10000 5100 1000]
+	ElementLine [10000 5100 10000 -5100 1000]
+	ElementLine [10000 -5100 -7600 -5100 1000]
+	ElementLine [-7600 -5100 -11000 -4000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D146" "unknown" 610000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D145" "unknown" 570000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "1206" "R109" "f78a9b" 540000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_OSC64MHZ" "unknown" 520000 80000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q149" "unknown" 490000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D144" "unknown" 470000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "1206" "R108" "f78a9q" 440000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT23" "Q148" "unknown" 410000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D143" "unknown" 380000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "1206" "R107" "f78a9b" 350000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_VCC4" "unknown" 320000 80000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q147" "unknown" 300000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D142" "unknown" 270000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "1206" "R106" "f78a9q" 240000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_MCLR" "unknown" 220000 80000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q146" "unknown" 190000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D141" "unknown" 160000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "1206" "R105" "f78a9b" 130000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT23" "Q145" "unknown" 100000 90000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D140" "unknown" 80000 80000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "1206" "R104" "f78a9q" 50000 80000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_VCC1" "unknown" 20000 80000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q144" "unknown" 1460000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "1206" "R103" "f78a9b" 1430000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT23" "Q143" "unknown" 1400000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "1206" "R102" "f78a9q" 1380000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT23" "Q142" "unknown" 1350000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "1206" "R101" "f78a9b" 1330000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT23" "Q141" "unknown" 1300000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT223" "U401" "unknown" 1260000 50000 25300 -32900 3 100 ""]
+(
+	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "square,edge2"]
+	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "square,edge2"]
+	Pad[18100 -3300 18100 3300 5600 3000 6200 "3" "3" "square,edge2"]
+	Pad[4500 -24400 13500 -24400 12200 3000 12800 "4" "4" "square"]
+	ElementLine [-5200 -32900 -5200 8500 1000]
+	ElementLine [-5200 8500 23300 8500 1000]
+	ElementLine [23300 8500 23300 -32900 1000]
+	ElementLine [23300 -32900 -5200 -32900 1000]
+
+	)
+
+Element["" "SOT23" "Q140" "unknown" 1230000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "CONNECTOR-2-1" "CONN401" "unknown" 1210000 20000 11000 -5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3000 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 3000 "2" "2" ""]
+	ElementLine [-5000 -5000 -5000 15000 2000]
+	ElementLine [-5000 15000 5000 15000 2000]
+	ElementLine [5000 15000 5000 -5000 2000]
+	ElementLine [5000 -5000 -5000 -5000 2000]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementLine [5000 5000 5000 -5000 1000]
+
+	)
+
+Element["" "DO214AB" "D401" "unknown" 1180000 30000 22700 0 3 100 ""]
+(
+	Pad[-10900 -2000 -10900 2000 14500 2000 15100 "1" "1" "square"]
+	Pad[10900 -2000 10900 2000 14500 2000 15100 "2" "2" "square"]
+	ElementLine [-21700 -9200 -21700 9200 2000]
+	ElementLine [-21700 9200 -14500 11800 1000]
+	ElementLine [-14500 11800 20700 11800 1000]
+	ElementLine [20700 11800 20700 -11800 1000]
+	ElementLine [20700 -11800 -14500 -11800 1000]
+	ElementLine [-14500 -11800 -21700 -9200 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_VLED7" "unknown" 1140000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "TESTPT_42" "TP_VLED6" "unknown" 1110000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C127" "1uF" 1090000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_VLED5" "unknown" 1060000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C126" "0.1uF" 1030000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "R202" "4K7" 1000000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_VLED4" "unknown" 980000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C125" "1uF" 950000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "R201" "100K" 920000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_VLED3" "unknown" 890000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C124" "0.1uF" 870000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_VLED2" "unknown" 840000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C123" "1uF" 810000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "TESTPT_42" "TP_VLED1" "unknown" 790000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C122" "0.1uF" 760000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D139" "unknown" 730000 20000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_VLED0" "unknown" 700000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "1206" "C121" "1uF" 670000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D138" "unknown" 640000 20000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "1206" "C120" "0.1uF" 610000 20000 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D137" "unknown" 580000 20000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D136" "unknown" 550000 20000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D135" "unknown" 520000 20000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_PIC_OSC" "unknown" 490000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q139" "unknown" 470000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D134" "unknown" 440000 20000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q138" "unknown" 410000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D133" "unknown" 390000 20000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_A2" "unknown" 360000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q137" "unknown" 330000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D132" "unknown" 310000 20000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_A1" "unknown" 280000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q136" "unknown" 250000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D131" "unknown" 230000 20000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "TESTPT_42" "TP_A0" "unknown" 200000 20000 5000 -5000 0 100 ""]
+(
+	Pin[0 0 8000 5000 8100 4200 "" "1" "square"]
+
+	)
+
+Element["" "SOT23" "Q135" "unknown" 170000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SSB-LXA100SRW" "D130" "unknown" 150000 20000 -10000 -12500 0 100 ""]
+(
+	Pin[0 30000 5000 2000 5600 2800 "" "4" ""]
+	Pin[0 20000 5000 2000 5600 2800 "" "3" ""]
+	Pin[0 10000 5000 2000 5600 2800 "" "2" ""]
+	Pin[0 0 5000 2000 5600 2800 "" "1" "square"]
+	ElementLine [10000 -5000 10000 35000 1000]
+	ElementLine [-10000 -5000 10000 -5000 1000]
+	ElementLine [-10000 -5000 -10000 35000 1000]
+	ElementLine [-10000 35000 10000 35000 1000]
+
+	)
+
+Element["" "SOT23" "Q134" "unknown" 120000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q133" "unknown" 90000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q132" "unknown" 70000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q131" "unknown" 40000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["" "SOT23" "Q130" "unknown" 20000 30000 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+Rat[570000 140000 0 779000 115000 1  ""]
+Rat[779000 115000 1 979000 212500 1  ""]
+Rat[979000 212500 1 1219000 142500 1  ""]
+Rat[1219000 142500 1 1279000 142500 1  ""]
+Rat[1279000 142500 1 1339000 142500 1  ""]
+Rat[1339000 142500 1 1389000 142500 1  ""]
+Rat[570000 140000 0 19000 212500 1  ""]
+Rat[650000 140000 0 779000 120000 1  ""]
+Rat[779000 120000 1 979000 217500 1  ""]
+Rat[979000 217500 1 1219000 147500 1  ""]
+Rat[1219000 147500 1 1279000 147500 1  ""]
+Rat[1279000 147500 1 1339000 147500 1  ""]
+Rat[1339000 147500 1 1389000 147500 1  ""]
+Rat[650000 140000 0 19000 217500 1  ""]
+Rat[740000 140000 0 821000 85000 1  ""]
+Rat[821000 85000 1 979000 222500 1  ""]
+Rat[979000 222500 1 1219000 152500 1  ""]
+Rat[1219000 152500 1 1279000 152500 1  ""]
+Rat[1279000 152500 1 1339000 152500 1  ""]
+Rat[1339000 152500 1 1389000 152500 1  ""]
+Rat[740000 140000 0 19000 222500 1  ""]
+Rat[1450000 300000 0 1389000 157500 1  ""]
+Rat[1389000 157500 1 1339000 157500 1  ""]
+Rat[1339000 157500 1 1279000 157500 1  ""]
+Rat[1279000 157500 1 1219000 157500 1  ""]
+Rat[1219000 157500 1 979000 227500 1  ""]
+Rat[979000 227500 1 821000 95000 1  ""]
+Rat[821000 95000 1 19000 227500 1  ""]
+Rat[1219000 162500 1 1279000 162500 1  ""]
+Rat[1279000 162500 1 1339000 162500 1  ""]
+Rat[1339000 162500 1 1389000 162500 1  ""]
+Rat[1219000 162500 1 979000 232500 1  ""]
+Rat[979000 232500 1 821000 120000 1  ""]
+Rat[821000 120000 1 19000 232500 1  ""]
+Rat[390000 400000 0 80000 380000 0  ""]
+Rat[80000 380000 0 19000 237500 1  ""]
+Rat[390000 400000 0 979000 237500 1  ""]
+Rat[979000 237500 1 1219000 167500 1  ""]
+Rat[1219000 167500 1 1279000 167500 1  ""]
+Rat[1279000 167500 1 1339000 167500 1  ""]
+Rat[1339000 167500 1 1389000 167500 1  ""]
+Rat[390000 390000 0 160000 380000 0  ""]
+Rat[160000 380000 0 19000 242500 1  ""]
+Rat[390000 390000 0 979000 242500 1  ""]
+Rat[979000 242500 1 1219000 172500 1  ""]
+Rat[1219000 172500 1 1279000 172500 1  ""]
+Rat[1279000 172500 1 1339000 172500 1  ""]
+Rat[1339000 172500 1 1389000 172500 1  ""]
+Rat[390000 380000 0 230000 380000 0  ""]
+Rat[230000 380000 0 19000 247500 1  ""]
+Rat[390000 380000 0 979000 247500 1  ""]
+Rat[979000 247500 1 1219000 177500 1  ""]
+Rat[1219000 177500 1 1279000 177500 1  ""]
+Rat[1279000 177500 1 1339000 177500 1  ""]
+Rat[1339000 177500 1 1389000 177500 1  ""]
+Rat[200000 210000 0 863500 77500 1  ""]
+Rat[863500 77500 1 1261000 182500 1  ""]
+Rat[260000 210000 0 863500 82500 1  ""]
+Rat[863500 82500 1 1321000 182500 1  ""]
+Rat[310000 210000 0 863500 87500 1  ""]
+Rat[863500 87500 1 1381000 182500 1  ""]
+Rat[370000 210000 0 863500 92500 1  ""]
+Rat[863500 92500 1 1431000 182500 1  ""]
+Rat[450000 210000 0 61000 252500 1  ""]
+Rat[450000 210000 0 863500 97500 1  ""]
+Rat[530000 210000 0 863500 102500 1  ""]
+Rat[863500 102500 1 1021000 252500 1  ""]
+Rat[360000 20000 0 779000 85000 1  ""]
+Rat[779000 85000 1 836500 72500 1  ""]
+Rat[280000 20000 0 779000 105000 1  ""]
+Rat[779000 105000 1 836500 77500 1  ""]
+Rat[200000 20000 0 779000 110000 1  ""]
+Rat[779000 110000 1 836500 82500 1  ""]
+Rat[1224095 198819 1 1219000 182500 1  ""]
+Rat[1219000 182500 1 1169000 182500 1  ""]
+Rat[1169000 182500 1 1134095 137245 1  ""]
+Rat[1134095 137245 1 1107800 90300 1  ""]
+Rat[1107800 90300 1 1124095 78819 1  ""]
+Rat[1107800 90300 1 1064095 78819 1  ""]
+Rat[1064095 78819 1 1034095 78819 1  ""]
+Rat[1034095 78819 1 1017800 90300 1  ""]
+Rat[1017800 90300 1 1024095 137245 1  ""]
+Rat[1024095 137245 1 1003500 155000 1  ""]
+Rat[1003500 155000 1 976500 150000 1  ""]
+Rat[976500 150000 1 976500 175000 1  ""]
+Rat[1224095 198819 1 1279000 182500 1  ""]
+Rat[1279000 182500 1 1324095 198819 1  ""]
+Rat[1324095 198819 1 1339000 182500 1  ""]
+Rat[1339000 182500 1 1389000 182500 1  ""]
+Rat[1389000 182500 1 1394095 198819 1  ""]
+Rat[976500 175000 1 927800 210300 1  ""]
+Rat[927800 210300 1 877800 210300 1  ""]
+Rat[877800 210300 1 846500 175000 1  ""]
+Rat[846500 175000 1 846500 150000 1  ""]
+Rat[846500 150000 1 873500 155000 1  ""]
+Rat[873500 155000 1 894095 137245 1  ""]
+Rat[846500 150000 1 836500 107500 1  ""]
+Rat[836500 107500 1 836500 92500 1  ""]
+Rat[836500 92500 1 836500 87500 1  ""]
+Rat[846500 175000 1 817800 210300 1  ""]
+Rat[894095 137245 1 887800 90300 1  ""]
+Rat[887800 90300 1 904095 78819 1  ""]
+Rat[904095 78819 1 937800 90300 1  ""]
+Rat[937800 90300 1 954095 78819 1  ""]
+Rat[836500 107500 1 794095 138819 1  ""]
+Rat[794095 138819 1 779000 100000 1  ""]
+Rat[954095 78819 1 944095 18819 1  ""]
+Rat[1034095 78819 1 1024095 18819 1  ""]
+Rat[1024095 18819 1 1005905 18819 1  ""]
+Rat[1024095 18819 1 1084095 18819 1  ""]
+Rat[1124095 78819 1 1187800 90300 1  ""]
+Rat[1187800 90300 1 1204095 78819 1  ""]
+Rat[1204095 78819 1 1210000 30000 0  ""]
+Rat[1210000 30000 0 1190900 28000 1  ""]
+Rat[1210000 30000 0 1237800 30300 1  ""]
+Rat[1237800 30300 1 1264500 25600 1  ""]
+Rat[1264500 25600 1 1269000 53300 1  ""]
+Rat[1269000 53300 1 1264095 78819 1  ""]
+Rat[1264095 78819 1 1297800 90300 1  ""]
+Rat[1264500 25600 1 1307800 30300 1  ""]
+Rat[1307800 30300 1 1357800 30300 1  ""]
+Rat[1357800 30300 1 1374095 18819 1  ""]
+Rat[1374095 18819 1 1407800 30300 1  ""]
+Rat[1407800 30300 1 1434095 78819 1  ""]
+Rat[1434095 78819 1 1467800 90300 1  ""]
+Rat[1434095 78819 1 1387800 90300 1  ""]
+Rat[1434095 78819 1 1467800 30300 1  ""]
+Rat[927800 210300 1 979000 252500 1  ""]
+Rat[979000 252500 1 977800 310300 1  ""]
+Rat[1394095 198819 1 1464095 198819 1  ""]
+Rat[1024095 137245 1 1079000 182500 1  ""]
+Rat[904095 78819 1 864095 18819 1  ""]
+Rat[864095 18819 1 804095 18819 1  ""]
+Rat[804095 18819 1 754095 18819 1  ""]
+Rat[817800 210300 1 737800 210300 1  ""]
+Rat[737800 210300 1 677800 210300 1  ""]
+Rat[677800 210300 1 657800 210300 1  ""]
+Rat[657800 210300 1 607800 210300 1  ""]
+Rat[607800 210300 1 557800 210300 1  ""]
+Rat[607800 210300 1 607800 150300 1  ""]
+Rat[557800 210300 1 527800 150300 1  ""]
+Rat[527800 150300 1 467800 150300 1  ""]
+Rat[467800 150300 1 477800 210300 1  ""]
+Rat[467800 150300 1 497800 90300 1  ""]
+Rat[497800 90300 1 477800 30300 1  ""]
+Rat[477800 30300 1 417800 30300 1  ""]
+Rat[417800 30300 1 434095 78819 1  ""]
+Rat[434095 78819 1 417800 90300 1  ""]
+Rat[417800 90300 1 377800 150300 1  ""]
+Rat[377800 150300 1 327800 150300 1  ""]
+Rat[327800 150300 1 267800 150300 1  ""]
+Rat[267800 150300 1 217800 150300 1  ""]
+Rat[217800 150300 1 187800 150300 1  ""]
+Rat[187800 150300 1 137800 150300 1  ""]
+Rat[137800 150300 1 107800 150300 1  ""]
+Rat[107800 150300 1 57800 150300 1  ""]
+Rat[107800 150300 1 84700 204700 1  ""]
+Rat[84700 204700 1 107800 210300 1  ""]
+Rat[107800 210300 1 127800 210300 1  ""]
+Rat[127800 210300 1 157800 210300 1  ""]
+Rat[157800 210300 1 177800 210300 1  ""]
+Rat[107800 150300 1 107800 90300 1  ""]
+Rat[187800 150300 1 197800 90300 1  ""]
+Rat[197800 90300 1 234095 78819 1  ""]
+Rat[234095 78819 1 257800 30300 1  ""]
+Rat[107800 90300 1 97800 30300 1  ""]
+Rat[97800 30300 1 77800 30300 1  ""]
+Rat[97800 30300 1 127800 30300 1  ""]
+Rat[77800 30300 1 47800 30300 1  ""]
+Rat[47800 30300 1 27800 30300 1  ""]
+Rat[47800 30300 1 44095 78819 1  ""]
+Rat[127800 30300 1 177800 30300 1  ""]
+Rat[327800 150300 1 307800 90300 1  ""]
+Rat[377800 150300 1 397800 210300 1  ""]
+Rat[307800 90300 1 337800 30300 1  ""]
+Rat[677800 210300 1 704095 138819 1  ""]
+Rat[977800 310300 1 897800 310300 1  ""]
+Rat[897800 310300 1 817800 310300 1  ""]
+Rat[817800 310300 1 737800 310300 1  ""]
+Rat[737800 310300 1 657800 310300 1  ""]
+Rat[657800 310300 1 577800 310300 1  ""]
+Rat[577800 310300 1 547800 310300 1  ""]
+Rat[547800 310300 1 527800 310300 1  ""]
+Rat[527800 310300 1 497800 310300 1  ""]
+Rat[497800 310300 1 477800 310300 1  ""]
+Rat[477800 310300 1 440000 350000 0  ""]
+Rat[440000 350000 0 390000 410000 0  ""]
+Rat[84700 204700 1 19000 252500 1  ""]
+Rat[19000 252500 1 54095 298819 1  ""]
+Rat[54095 298819 1 84095 298819 1  ""]
+Rat[84095 298819 1 154095 298819 1  ""]
+Rat[154095 298819 1 224095 298819 1  ""]
+Rat[224095 298819 1 294095 298819 1  ""]
+Rat[294095 298819 1 330000 300000 0  ""]
+Rat[330000 300000 0 350000 320000 0  ""]
+Rat[350000 320000 0 370000 300000 0  ""]
+Rat[84095 298819 1 94095 378819 1  ""]
+Rat[94095 378819 1 14095 378819 1  ""]
+Rat[94095 378819 1 174095 378819 1  ""]
+Rat[174095 378819 1 254095 378819 1  ""]
+Rat[1079000 182500 1 1070000 270000 0  ""]
+Rat[1070000 270000 0 1154095 298819 1  ""]
+Rat[754095 18819 1 664095 18819 1  ""]
+Rat[664095 18819 1 604095 18819 1  ""]
+Rat[1154095 298819 1 1244095 298819 1  ""]
+Rat[1394095 198819 1 1394095 298819 1  ""]
+Rat[1394095 298819 1 1364095 298819 1  ""]
+Rat[1394095 298819 1 1424095 298819 1  ""]
+Rat[1424095 298819 1 1474095 298819 1  ""]
+Rat[350000 300000 0 220000 80000 0  ""]
+Rat[350000 300000 0 779000 95000 1  ""]
+Rat[779000 95000 1 914095 18819 1  ""]
+Rat[350000 340000 0 360000 390000 0  ""]
+Rat[350000 340000 0 821000 110000 1  ""]
+Rat[350000 330000 0 360000 380000 0  ""]
+Rat[350000 330000 0 821000 105000 1  ""]
+Rat[350000 350000 0 360000 400000 0  ""]
+Rat[350000 350000 0 821000 115000 1  ""]
+Rat[821000 115000 1 994095 18819 1  ""]
+Rat[490000 20000 0 670000 300000 0  ""]
+Rat[670000 300000 0 846500 160000 1  ""]
+Rat[846500 160000 1 821000 90000 1  ""]
+Rat[846500 160000 1 1079000 152500 1  ""]
+Rat[760000 80000 0 821000 80000 1  ""]
+Rat[821000 80000 1 979000 207500 1  ""]
+Rat[979000 207500 1 1079000 137500 1  ""]
+Rat[1079000 137500 1 1169000 137500 1  ""]
+Rat[1169000 137500 1 1219000 137500 1  ""]
+Rat[1219000 137500 1 1279000 137500 1  ""]
+Rat[1279000 137500 1 1339000 137500 1  ""]
+Rat[1339000 137500 1 1389000 137500 1  ""]
+Rat[760000 80000 0 19000 207500 1  ""]
+Rat[430000 310000 0 400000 300000 0  ""]
+Rat[430000 310000 0 779000 80000 1  ""]
+Rat[910000 300000 0 873500 160000 1  ""]
+Rat[873500 160000 1 1079000 167500 1  ""]
+Rat[830000 300000 0 846500 170000 1  ""]
+Rat[846500 170000 1 873500 150000 1  ""]
+Rat[873500 150000 1 1079000 162500 1  ""]
+Rat[990000 300000 0 1079000 172500 1  ""]
+Rat[990000 300000 0 873500 165000 1  ""]
+Rat[1050000 300000 0 1079000 177500 1  ""]
+Rat[1079000 177500 1 873500 170000 1  ""]
+Rat[1110000 300000 0 1169000 142500 1  ""]
+Rat[1169000 142500 1 976500 145000 1  ""]
+Rat[976500 145000 1 873500 175000 1  ""]
+Rat[590000 300000 0 846500 155000 1  ""]
+Rat[846500 155000 1 1079000 147500 1  ""]
+Rat[520000 80000 0 846500 145000 1  ""]
+Rat[846500 145000 1 1079000 142500 1  ""]
+Rat[1079000 142500 1 1100000 270000 0  ""]
+Rat[750000 300000 0 846500 165000 1  ""]
+Rat[846500 165000 1 1079000 157500 1  ""]
+Rat[210000 380000 0 1003500 160000 1  ""]
+Rat[1003500 160000 1 1169000 167500 1  ""]
+Rat[130000 380000 0 976500 170000 1  ""]
+Rat[976500 170000 1 1003500 150000 1  ""]
+Rat[1003500 150000 1 1169000 162500 1  ""]
+Rat[290000 380000 0 1003500 165000 1  ""]
+Rat[1003500 165000 1 1169000 172500 1  ""]
+Rat[310000 380000 0 1003500 170000 1  ""]
+Rat[1003500 170000 1 1169000 177500 1  ""]
+Rat[340000 380000 0 1003500 175000 1  ""]
+Rat[1190000 300000 0 1169000 147500 1  ""]
+Rat[1169000 147500 1 976500 155000 1  ""]
+Rat[1280000 300000 0 1169000 152500 1  ""]
+Rat[1169000 152500 1 976500 160000 1  ""]
+Rat[50000 380000 0 976500 165000 1  ""]
+Rat[976500 165000 1 1169000 157500 1  ""]
+Rat[100000 150300 1 1121000 142500 1  ""]
+Rat[180000 150300 1 1121000 147500 1  ""]
+Rat[210000 150300 1 1121000 152500 1  ""]
+Rat[260000 150300 1 1121000 157500 1  ""]
+Rat[320000 150300 1 1121000 162500 1  ""]
+Rat[370000 150300 1 1121000 167500 1  ""]
+Rat[460000 150300 1 1121000 172500 1  ""]
+Rat[520000 150300 1 1121000 177500 1  ""]
+Rat[600000 150300 1 1211000 142500 1  ""]
+Rat[390000 210300 1 1211000 147500 1  ""]
+Rat[470000 210300 1 1211000 152500 1  ""]
+Rat[550000 210300 1 1211000 157500 1  ""]
+Rat[600000 210300 1 1211000 162500 1  ""]
+Rat[650000 210300 1 1211000 167500 1  ""]
+Rat[670000 210300 1 1211000 172500 1  ""]
+Rat[730000 210300 1 1211000 177500 1  ""]
+Rat[810000 210300 1 1261000 142500 1  ""]
+Rat[870000 210300 1 1261000 147500 1  ""]
+Rat[920000 210300 1 1261000 152500 1  ""]
+Rat[470000 310300 1 1261000 157500 1  ""]
+Rat[490000 310300 1 1261000 162500 1  ""]
+Rat[520000 310300 1 1261000 167500 1  ""]
+Rat[540000 310300 1 1261000 172500 1  ""]
+Rat[570000 310300 1 1261000 177500 1  ""]
+Rat[650000 310300 1 1321000 142500 1  ""]
+Rat[730000 310300 1 1321000 147500 1  ""]
+Rat[810000 310300 1 1321000 152500 1  ""]
+Rat[890000 310300 1 1321000 157500 1  ""]
+Rat[970000 310300 1 1321000 162500 1  ""]
+Rat[20000 30300 1 1321000 167500 1  ""]
+Rat[40000 30300 1 1321000 172500 1  ""]
+Rat[70000 30300 1 1321000 177500 1  ""]
+Rat[90000 30300 1 1381000 142500 1  ""]
+Rat[120000 30300 1 1381000 147500 1  ""]
+Rat[170000 30300 1 1381000 152500 1  ""]
+Rat[250000 30300 1 1381000 157500 1  ""]
+Rat[330000 30300 1 1381000 162500 1  ""]
+Rat[410000 30300 1 1381000 167500 1  ""]
+Rat[470000 30300 1 1381000 172500 1  ""]
+Rat[1230000 30300 1 1381000 177500 1  ""]
+Rat[1300000 30300 1 1431000 142500 1  ""]
+Rat[1350000 30300 1 1431000 147500 1  ""]
+Rat[1400000 30300 1 1431000 152500 1  ""]
+Rat[1460000 30300 1 1431000 157500 1  ""]
+Rat[100000 90300 1 1431000 162500 1  ""]
+Rat[190000 90300 1 1431000 167500 1  ""]
+Rat[300000 90300 1 1431000 172500 1  ""]
+Rat[410000 90300 1 1431000 177500 1  ""]
+Rat[490000 90300 1 61000 212500 1  ""]
+Rat[880000 90300 1 61000 217500 1  ""]
+Rat[930000 90300 1 61000 222500 1  ""]
+Rat[1010000 90300 1 61000 227500 1  ""]
+Rat[1100000 90300 1 61000 232500 1  ""]
+Rat[1180000 90300 1 61000 237500 1  ""]
+Rat[1290000 90300 1 61000 242500 1  ""]
+Rat[1380000 90300 1 61000 247500 1  ""]
+Rat[1460000 90300 1 1021000 212500 1  ""]
+Rat[50000 150300 1 1021000 217500 1  ""]
+Rat[130000 150300 1 1021000 222500 1  ""]
+Rat[92500 204700 1 1021000 227500 1  "found"]
+Rat[100000 210300 1 1021000 232500 1  ""]
+Rat[120000 210300 1 1021000 237500 1  ""]
+Rat[150000 210300 1 1021000 242500 1  ""]
+Rat[170000 210300 1 1021000 247500 1  ""]
+Rat[410000 140000 0 103900 141500 1  ""]
+Rat[410000 170000 0 490000 170000 0  ""]
+Rat[490000 170000 0 550000 170000 0  ""]
+Rat[550000 170000 0 630000 170000 0  ""]
+Rat[630000 170000 0 680000 170000 0  ""]
+Rat[680000 170000 0 770000 170000 0  ""]
+Rat[770000 170000 0 830000 170000 0  ""]
+Rat[830000 170000 0 950000 170000 0  ""]
+Rat[680000 170000 0 700000 20000 0  ""]
+Rat[950000 170000 0 1164500 205600 1  ""]
+Rat[1164500 205600 1 1169000 233300 1  ""]
+Rat[1164500 205600 1 1335905 18819 1  ""]
+Rat[410000 150000 0 410000 160000 0  ""]
+Rat[1324095 18819 1 1385905 18819 1  ""]
+Rat[1324095 18819 1 1160000 233300 1  ""]
+Rat[490000 140000 0 183900 141500 1  ""]
+Rat[490000 150000 0 490000 160000 0  ""]
+Rat[550000 140000 0 213900 141500 1  ""]
+Rat[550000 150000 0 550000 160000 0  ""]
+Rat[630000 140000 0 263900 141500 1  ""]
+Rat[630000 150000 0 630000 160000 0  ""]
+Rat[680000 140000 0 323900 141500 1  ""]
+Rat[680000 150000 0 680000 160000 0  ""]
+Rat[770000 140000 0 373900 141500 1  ""]
+Rat[770000 150000 0 770000 160000 0  ""]
+Rat[830000 140000 0 463900 141500 1  ""]
+Rat[830000 150000 0 830000 160000 0  ""]
+Rat[950000 140000 0 523900 141500 1  ""]
+Rat[950000 150000 0 950000 160000 0  ""]
+Rat[1060000 140000 0 603900 141500 1  ""]
+Rat[1060000 170000 0 1040000 240000 0  ""]
+Rat[1040000 240000 0 950000 240000 0  ""]
+Rat[950000 240000 0 900000 240000 0  ""]
+Rat[900000 240000 0 840000 240000 0  ""]
+Rat[840000 240000 0 790000 240000 0  ""]
+Rat[790000 240000 0 760000 240000 0  ""]
+Rat[760000 240000 0 700000 240000 0  ""]
+Rat[1060000 170000 0 1264500 205600 1  ""]
+Rat[1264500 205600 1 1269000 233300 1  ""]
+Rat[790000 240000 0 790000 20000 0  ""]
+Rat[1264500 205600 1 1435905 18819 1  ""]
+Rat[1060000 150000 0 1060000 160000 0  ""]
+Rat[1424095 18819 1 1260000 233300 1  ""]
+Rat[1260000 233300 1 55905 78819 1  ""]
+Rat[700000 210000 0 393900 201500 1  ""]
+Rat[700000 220000 0 700000 230000 0  ""]
+Rat[760000 210000 0 473900 201500 1  ""]
+Rat[760000 220000 0 760000 230000 0  ""]
+Rat[790000 210000 0 553900 201500 1  ""]
+Rat[790000 220000 0 790000 230000 0  ""]
+Rat[840000 210000 0 603900 201500 1  ""]
+Rat[840000 220000 0 840000 230000 0  ""]
+Rat[900000 210000 0 653900 201500 1  ""]
+Rat[900000 220000 0 900000 230000 0  ""]
+Rat[950000 210000 0 673900 201500 1  ""]
+Rat[950000 220000 0 950000 230000 0  ""]
+Rat[1040000 210000 0 733900 201500 1  ""]
+Rat[1040000 220000 0 1040000 230000 0  ""]
+Rat[1130000 240000 0 1200000 240000 0  ""]
+Rat[1200000 240000 0 1300000 240000 0  ""]
+Rat[1300000 240000 0 1369000 233300 1  ""]
+Rat[1369000 233300 1 1364500 205600 1  ""]
+Rat[1130000 240000 0 940000 330000 0  ""]
+Rat[940000 330000 0 860000 330000 0  ""]
+Rat[860000 330000 0 780000 330000 0  ""]
+Rat[780000 330000 0 700000 330000 0  ""]
+Rat[700000 330000 0 620000 330000 0  ""]
+Rat[860000 330000 0 840000 20000 0  ""]
+Rat[620000 330000 0 135905 78819 1  ""]
+Rat[1130000 220000 0 1130000 230000 0  ""]
+Rat[1130000 210000 0 813900 201500 1  ""]
+Rat[124095 78819 1 245905 78819 1  ""]
+Rat[245905 78819 1 1360000 233300 1  ""]
+Rat[1200000 220000 0 1200000 230000 0  ""]
+Rat[1200000 210000 0 873900 201500 1  ""]
+Rat[1300000 220000 0 1300000 230000 0  ""]
+Rat[1300000 210000 0 923900 201500 1  ""]
+Rat[620000 310000 0 620000 320000 0  ""]
+Rat[620000 300000 0 473900 301500 1  ""]
+Rat[700000 310000 0 700000 320000 0  ""]
+Rat[700000 300000 0 493900 301500 1  ""]
+Rat[780000 310000 0 780000 320000 0  ""]
+Rat[780000 300000 0 523900 301500 1  ""]
+Rat[860000 310000 0 860000 320000 0  ""]
+Rat[860000 300000 0 543900 301500 1  ""]
+Rat[940000 310000 0 940000 320000 0  ""]
+Rat[940000 300000 0 573900 301500 1  ""]
+Rat[1020000 330000 0 1080000 330000 0  ""]
+Rat[1080000 330000 0 1130000 330000 0  ""]
+Rat[1130000 330000 0 1220000 330000 0  ""]
+Rat[1220000 330000 0 1340000 330000 0  ""]
+Rat[1340000 330000 0 1439000 233300 1  ""]
+Rat[1439000 233300 1 1434500 205600 1  ""]
+Rat[1020000 330000 0 890000 20000 0  ""]
+Rat[890000 20000 0 355905 78819 1  ""]
+Rat[355905 78819 1 310000 50000 0  ""]
+Rat[310000 50000 0 230000 50000 0  ""]
+Rat[230000 50000 0 150000 50000 0  ""]
+Rat[1020000 310000 0 1020000 320000 0  ""]
+Rat[1020000 300000 0 653900 301500 1  ""]
+Rat[344095 78819 1 445905 78819 1  ""]
+Rat[445905 78819 1 1430000 233300 1  ""]
+Rat[1080000 310000 0 1080000 320000 0  ""]
+Rat[1080000 300000 0 733900 301500 1  ""]
+Rat[1130000 310000 0 1130000 320000 0  ""]
+Rat[1130000 300000 0 813900 301500 1  ""]
+Rat[1220000 310000 0 1220000 320000 0  ""]
+Rat[1220000 300000 0 893900 301500 1  ""]
+Rat[1340000 310000 0 1340000 320000 0  ""]
+Rat[1340000 300000 0 973900 301500 1  ""]
+Rat[150000 30000 0 150000 40000 0  ""]
+Rat[150000 20000 0 23900 21500 1  ""]
+Rat[230000 30000 0 230000 40000 0  ""]
+Rat[230000 20000 0 43900 21500 1  ""]
+Rat[310000 30000 0 310000 40000 0  ""]
+Rat[310000 20000 0 73900 21500 1  ""]
+Rat[390000 50000 0 440000 50000 0  ""]
+Rat[440000 50000 0 520000 50000 0  ""]
+Rat[520000 50000 0 550000 50000 0  ""]
+Rat[550000 50000 0 545905 78819 1  ""]
+Rat[550000 50000 0 580000 50000 0  ""]
+Rat[580000 50000 0 640000 50000 0  ""]
+Rat[640000 50000 0 730000 50000 0  ""]
+Rat[730000 50000 0 980000 20000 0  ""]
+Rat[390000 50000 0 80000 110000 0  ""]
+Rat[80000 110000 0 24500 305600 1  ""]
+Rat[24500 305600 1 29000 333300 1  ""]
+Rat[390000 30000 0 390000 40000 0  ""]
+Rat[390000 20000 0 93900 21500 1  ""]
+Rat[534095 78819 1 915905 78819 1  ""]
+Rat[534095 78819 1 20000 333300 1  ""]
+Rat[440000 30000 0 440000 40000 0  ""]
+Rat[440000 20000 0 123900 21500 1  ""]
+Rat[520000 30000 0 520000 40000 0  ""]
+Rat[520000 20000 0 173900 21500 1  ""]
+Rat[550000 30000 0 550000 40000 0  ""]
+Rat[550000 20000 0 253900 21500 1  ""]
+Rat[580000 30000 0 580000 40000 0  ""]
+Rat[580000 20000 0 333900 21500 1  ""]
+Rat[640000 30000 0 640000 40000 0  ""]
+Rat[640000 20000 0 413900 21500 1  ""]
+Rat[730000 30000 0 730000 40000 0  ""]
+Rat[730000 20000 0 473900 21500 1  ""]
+Rat[80000 90000 0 80000 100000 0  ""]
+Rat[80000 80000 0 1233900 21500 1  ""]
+Rat[160000 110000 0 270000 110000 0  ""]
+Rat[270000 110000 0 380000 110000 0  ""]
+Rat[380000 110000 0 470000 110000 0  ""]
+Rat[470000 110000 0 570000 110000 0  ""]
+Rat[570000 110000 0 610000 110000 0  ""]
+Rat[610000 110000 0 670000 110000 0  ""]
+Rat[670000 110000 0 700000 110000 0  ""]
+Rat[160000 110000 0 124500 305600 1  ""]
+Rat[124500 305600 1 129000 333300 1  ""]
+Rat[700000 110000 0 995905 78819 1  ""]
+Rat[995905 78819 1 1060000 20000 0  ""]
+Rat[160000 90000 0 160000 100000 0  ""]
+Rat[160000 80000 0 1303900 21500 1  ""]
+Rat[984095 78819 1 1075905 78819 1  ""]
+Rat[984095 78819 1 120000 333300 1  ""]
+Rat[270000 90000 0 270000 100000 0  ""]
+Rat[270000 80000 0 1353900 21500 1  ""]
+Rat[380000 90000 0 380000 100000 0  ""]
+Rat[380000 80000 0 1403900 21500 1  ""]
+Rat[470000 90000 0 470000 100000 0  ""]
+Rat[470000 80000 0 1463900 21500 1  ""]
+Rat[570000 90000 0 570000 100000 0  ""]
+Rat[570000 80000 0 103900 81500 1  ""]
+Rat[610000 90000 0 610000 100000 0  ""]
+Rat[610000 80000 0 193900 81500 1  ""]
+Rat[670000 90000 0 670000 100000 0  ""]
+Rat[670000 80000 0 303900 81500 1  ""]
+Rat[700000 90000 0 700000 100000 0  ""]
+Rat[700000 80000 0 413900 81500 1  ""]
+Rat[730000 110000 0 1110000 20000 0  ""]
+Rat[1110000 20000 0 1165905 78819 1  ""]
+Rat[1165905 78819 1 1240000 110000 0  ""]
+Rat[1240000 110000 0 1320000 110000 0  ""]
+Rat[1320000 110000 0 1410000 110000 0  ""]
+Rat[730000 110000 0 240000 170000 0  ""]
+Rat[240000 170000 0 160000 170000 0  ""]
+Rat[160000 170000 0 80000 170000 0  ""]
+Rat[80000 170000 0 30000 170000 0  ""]
+Rat[160000 170000 0 194500 305600 1  ""]
+Rat[194500 305600 1 199000 333300 1  ""]
+Rat[730000 90000 0 730000 100000 0  ""]
+Rat[730000 80000 0 493900 81500 1  ""]
+Rat[1154095 78819 1 1275905 78819 1  ""]
+Rat[1154095 78819 1 190000 333300 1  ""]
+Rat[1240000 90000 0 1240000 100000 0  ""]
+Rat[1240000 80000 0 883900 81500 1  ""]
+Rat[1320000 90000 0 1320000 100000 0  ""]
+Rat[1320000 80000 0 933900 81500 1  ""]
+Rat[1410000 90000 0 1410000 100000 0  ""]
+Rat[1410000 80000 0 1013900 81500 1  ""]
+Rat[30000 150000 0 30000 160000 0  ""]
+Rat[30000 140000 0 1103900 81500 1  ""]
+Rat[80000 150000 0 80000 160000 0  ""]
+Rat[80000 140000 0 1183900 81500 1  ""]
+Rat[160000 150000 0 160000 160000 0  ""]
+Rat[160000 140000 0 1293900 81500 1  ""]
+Rat[240000 150000 0 240000 160000 0  ""]
+Rat[240000 140000 0 1383900 81500 1  ""]
+Rat[290000 170000 0 350000 170000 0  ""]
+Rat[290000 170000 0 280000 240000 0  ""]
+Rat[280000 240000 0 340000 240000 0  ""]
+Rat[280000 240000 0 254500 305600 1  ""]
+Rat[254500 305600 1 259000 333300 1  ""]
+Rat[340000 240000 0 420000 240000 0  ""]
+Rat[420000 240000 0 440000 170000 0  ""]
+Rat[420000 240000 0 500000 240000 0  ""]
+Rat[254500 305600 1 87500 260000 0  ""]
+Rat[500000 240000 0 1140000 20000 0  ""]
+Rat[1140000 20000 0 1355905 78819 1  ""]
+Rat[290000 150000 0 290000 160000 0  ""]
+Rat[290000 140000 0 1463900 81500 1  ""]
+Rat[1344095 78819 1 1445905 78819 1  ""]
+Rat[1344095 78819 1 250000 333300 1  ""]
+Rat[350000 150000 0 350000 160000 0  ""]
+Rat[350000 140000 0 53900 141500 1  ""]
+Rat[440000 150000 0 440000 160000 0  ""]
+Rat[440000 140000 0 133900 141500 1  ""]
+Rat[87500 240000 0 87500 250000 0  ""]
+Rat[87500 230000 0 88600 213500 1  ""]
+Rat[280000 220000 0 280000 230000 0  ""]
+Rat[280000 210000 0 103900 201500 1  ""]
+Rat[340000 220000 0 340000 230000 0  ""]
+Rat[340000 210000 0 123900 201500 1  ""]
+Rat[420000 220000 0 420000 230000 0  ""]
+Rat[420000 210000 0 153900 201500 1  ""]
+Rat[500000 220000 0 500000 230000 0  ""]
+Rat[500000 210000 0 173900 201500 1  ""]
+Rat[425905 378819 1 360000 410000 0  ""]
+Rat[425905 378819 1 779000 90000 1  ""]
+Rat[715905 138819 1 634500 79400 1  ""]
+Rat[715905 138819 1 821000 100000 1  ""]
+Rat[821000 100000 1 905905 137245 1  ""]
+Rat[905905 137245 1 1035905 137245 1  ""]
+Rat[1035905 137245 1 1145905 137245 1  ""]
+Rat[580000 210000 0 863500 107500 1  ""]
+Rat[630000 210000 0 836500 102500 1  ""]
+Rat[1210000 20000 0 1301733 296654 1  ""]
+Rat[1235905 198819 1 1211000 182500 1  ""]
+Rat[1211000 182500 1 1211000 137500 1  ""]
+Rat[1211000 137500 1 1261000 137500 1  ""]
+Rat[1211000 137500 1 1215905 78819 1  ""]
+Rat[1261000 137500 1 1321000 137500 1  ""]
+Rat[1321000 137500 1 1381000 137500 1  ""]
+Rat[1381000 137500 1 1431000 137500 1  ""]
+Rat[1321000 137500 1 1335905 198819 1  ""]
+Rat[1381000 137500 1 1405905 198819 1  ""]
+Rat[1215905 78819 1 1278100 53300 1  ""]
+Rat[1405905 198819 1 1475905 198819 1  ""]
+Rat[1211000 182500 1 1121000 182500 1  ""]
+Rat[1121000 182500 1 1100000 210000 0  ""]
+Rat[1121000 182500 1 1121000 137500 1  ""]
+Rat[1100000 210000 0 1021000 207500 1  ""]
+Rat[1021000 207500 1 1003500 145000 1  ""]
+Rat[1003500 145000 1 965905 78819 1  ""]
+Rat[965905 78819 1 955905 18819 1  ""]
+Rat[955905 18819 1 925905 18819 1  ""]
+Rat[925905 18819 1 875905 18819 1  ""]
+Rat[875905 18819 1 863500 72500 1  ""]
+Rat[863500 72500 1 836500 97500 1  ""]
+Rat[836500 97500 1 805905 138819 1  ""]
+Rat[875905 18819 1 815905 18819 1  ""]
+Rat[815905 18819 1 765905 18819 1  ""]
+Rat[836500 97500 1 873500 145000 1  ""]
+Rat[1003500 145000 1 1045905 78819 1  ""]
+Rat[1045905 78819 1 1035905 18819 1  ""]
+Rat[1035905 18819 1 1095905 18819 1  ""]
+Rat[765905 18819 1 675905 18819 1  ""]
+Rat[675905 18819 1 615905 18819 1  ""]
+Rat[615905 18819 1 645500 79400 1  ""]
+Rat[1405905 198819 1 1405905 298819 1  ""]
+Rat[1405905 298819 1 1375905 298819 1  ""]
+Rat[1405905 298819 1 1435905 298819 1  ""]
+Rat[1435905 298819 1 1485905 298819 1  ""]
+Rat[1235905 198819 1 1255905 298819 1  ""]
+Rat[1255905 298819 1 1165905 298819 1  ""]
+Rat[615905 18819 1 320000 80000 0  ""]
+Rat[320000 80000 0 305905 298819 1  ""]
+Rat[305905 298819 1 350000 310000 0  ""]
+Rat[305905 298819 1 235905 298819 1  ""]
+Rat[235905 298819 1 165905 298819 1  ""]
+Rat[165905 298819 1 95905 298819 1  ""]
+Rat[95905 298819 1 65905 298819 1  ""]
+Rat[350000 310000 0 420000 350000 0  ""]
+Rat[420000 350000 0 414095 378819 1  ""]
+Rat[95905 298819 1 105905 378819 1  ""]
+Rat[105905 378819 1 25905 378819 1  ""]
+Rat[105905 378819 1 185905 378819 1  ""]
+Rat[185905 378819 1 265905 378819 1  ""]
+Rat[65905 298819 1 61000 207500 1  ""]
+Rat[61000 207500 1 20000 80000 0  ""]
+Rat[1135905 78819 1 1169100 28000 1  ""]
+Rat[1169100 28000 1 1260000 53300 1  ""]
+Rat[1135905 78819 1 1178100 233300 1  ""]
+Rat[1178100 233300 1 1278100 233300 1  ""]
+Rat[1278100 233300 1 1318267 296654 1  ""]
+Rat[1318267 296654 1 1378100 233300 1  ""]
+Rat[1378100 233300 1 1448100 233300 1  ""]
+Rat[1135905 78819 1 930000 140000 0  ""]
+Rat[930000 140000 0 268100 333300 1  ""]
+Rat[268100 333300 1 208100 333300 1  ""]
+Rat[208100 333300 1 138100 333300 1  ""]
+Rat[138100 333300 1 38100 333300 1  ""]
+Layer(1 "solder")
+(
+)
+Layer(2 "GND-sldr")
+(
+)
+Layer(3 "Vcc-sldr")
+(
+)
+Layer(4 "component")
+(
+)
+Layer(5 "GND-comp")
+(
+)
+Layer(6 "Vcc-comp")
+(
+)
+Layer(7 "unused")
+(
+)
+Layer(8 "unused")
+(
+)
+NetList()
+(
+	Net("BIT_0" "(unknown)")
+	(
+		Connect("TP_BIT0-1")
+		Connect("U105-2")
+		Connect("U106-2")
+		Connect("U107-2")
+		Connect("U108-2")
+		Connect("U109-2")
+		Connect("U110-2")
+		Connect("U301-8")
+	)
+	Net("BIT_1" "(unknown)")
+	(
+		Connect("TP_BIT1-1")
+		Connect("U105-3")
+		Connect("U106-3")
+		Connect("U107-3")
+		Connect("U108-3")
+		Connect("U109-3")
+		Connect("U110-3")
+		Connect("U301-9")
+	)
+	Net("BIT_2" "(unknown)")
+	(
+		Connect("TP_BIT2-1")
+		Connect("U105-4")
+		Connect("U106-4")
+		Connect("U107-4")
+		Connect("U108-4")
+		Connect("U109-4")
+		Connect("U110-4")
+		Connect("U301-17")
+	)
+	Net("BIT_3" "(unknown)")
+	(
+		Connect("TP_BIT_3-1")
+		Connect("U105-5")
+		Connect("U106-5")
+		Connect("U107-5")
+		Connect("U108-5")
+		Connect("U109-5")
+		Connect("U110-5")
+		Connect("U301-15")
+	)
+	Net("BIT_4" "(unknown)")
+	(
+		Connect("U105-6")
+		Connect("U106-6")
+		Connect("U107-6")
+		Connect("U108-6")
+		Connect("U109-6")
+		Connect("U110-6")
+		Connect("U301-10")
+	)
+	Net("BIT_5" "(unknown)")
+	(
+		Connect("SW301-6")
+		Connect("TP_BIT_5-1")
+		Connect("U105-7")
+		Connect("U106-7")
+		Connect("U107-7")
+		Connect("U108-7")
+		Connect("U109-7")
+		Connect("U110-7")
+	)
+	Net("BIT_6" "(unknown)")
+	(
+		Connect("SW301-7")
+		Connect("TP_BIT_6-1")
+		Connect("U105-8")
+		Connect("U106-8")
+		Connect("U107-8")
+		Connect("U108-8")
+		Connect("U109-8")
+		Connect("U110-8")
+	)
+	Net("BIT_7" "(unknown)")
+	(
+		Connect("SW301-8")
+		Connect("TP_BIT_7-1")
+		Connect("U105-9")
+		Connect("U106-9")
+		Connect("U107-9")
+		Connect("U108-9")
+		Connect("U109-9")
+		Connect("U110-9")
+	)
+	Net("BYTE_2" "(unknown)")
+	(
+		Connect("TP_Y0-1")
+		Connect("U105-11")
+		Connect("U302-15")
+	)
+	Net("BYTE_3" "(unknown)")
+	(
+		Connect("TP_Y1-1")
+		Connect("U106-11")
+		Connect("U302-14")
+	)
+	Net("BYTE_4" "(unknown)")
+	(
+		Connect("TP_Y2-1")
+		Connect("U107-11")
+		Connect("U302-13")
+	)
+	Net("BYTE_5" "(unknown)")
+	(
+		Connect("TP_Y3-1")
+		Connect("U108-11")
+		Connect("U302-12")
+	)
+	Net("BYTE_6" "(unknown)")
+	(
+		Connect("TP_Y4-1")
+		Connect("U109-11")
+		Connect("U302-11")
+	)
+	Net("BYTE_7" "(unknown)")
+	(
+		Connect("TP_Y5-1")
+		Connect("U110-11")
+		Connect("U302-10")
+	)
+	Net("BYTE_A0" "(unknown)")
+	(
+		Connect("TP_A2-1")
+		Connect("U301-2")
+		Connect("U302-1")
+	)
+	Net("BYTE_A1" "(unknown)")
+	(
+		Connect("TP_A1-1")
+		Connect("U301-6")
+		Connect("U302-2")
+	)
+	Net("BYTE_A2" "(unknown)")
+	(
+		Connect("TP_A0-1")
+		Connect("U301-7")
+		Connect("U302-3")
+	)
+	Net("GND" "(unknown)")
+	(
+		Connect("C101-1")
+		Connect("C102-1")
+		Connect("C103-1")
+		Connect("C104-1")
+		Connect("C105-1")
+		Connect("C106-1")
+		Connect("C107-1")
+		Connect("C108-1")
+		Connect("C109-1")
+		Connect("C110-1")
+		Connect("C111-1")
+		Connect("C112-1")
+		Connect("C113-1")
+		Connect("C114-1")
+		Connect("C115-1")
+		Connect("C116-1")
+		Connect("C117-1")
+		Connect("C118-1")
+		Connect("C119-1")
+		Connect("C120-1")
+		Connect("C121-1")
+		Connect("C122-1")
+		Connect("C123-1")
+		Connect("C124-1")
+		Connect("C125-1")
+		Connect("C126-1")
+		Connect("C127-1")
+		Connect("C301-1")
+		Connect("C302-1")
+		Connect("C303-1")
+		Connect("C304-1")
+		Connect("C305-1")
+		Connect("C401-1")
+		Connect("C402-1")
+		Connect("C403-1")
+		Connect("C404-1")
+		Connect("CONN401-2")
+		Connect("D401-2")
+		Connect("ICSP201-3")
+		Connect("Q101-2")
+		Connect("Q102-2")
+		Connect("Q103-2")
+		Connect("Q104-2")
+		Connect("Q105-2")
+		Connect("Q106-2")
+		Connect("Q107-2")
+		Connect("Q108-2")
+		Connect("Q109-2")
+		Connect("Q110-2")
+		Connect("Q111-2")
+		Connect("Q112-2")
+		Connect("Q113-2")
+		Connect("Q114-2")
+		Connect("Q115-2")
+		Connect("Q116-2")
+		Connect("Q117-2")
+		Connect("Q118-2")
+		Connect("Q119-2")
+		Connect("Q120-2")
+		Connect("Q121-2")
+		Connect("Q122-2")
+		Connect("Q123-2")
+		Connect("Q124-2")
+		Connect("Q125-2")
+		Connect("Q126-2")
+		Connect("Q127-2")
+		Connect("Q128-2")
+		Connect("Q129-2")
+		Connect("Q130-2")
+		Connect("Q131-2")
+		Connect("Q132-2")
+		Connect("Q133-2")
+		Connect("Q134-2")
+		Connect("Q135-2")
+		Connect("Q136-2")
+		Connect("Q137-2")
+		Connect("Q138-2")
+		Connect("Q139-2")
+		Connect("Q140-2")
+		Connect("Q141-2")
+		Connect("Q142-2")
+		Connect("Q143-2")
+		Connect("Q144-2")
+		Connect("Q145-2")
+		Connect("Q146-2")
+		Connect("Q147-2")
+		Connect("Q148-2")
+		Connect("Q149-2")
+		Connect("Q150-2")
+		Connect("Q151-2")
+		Connect("Q152-2")
+		Connect("Q153-2")
+		Connect("Q154-2")
+		Connect("Q155-2")
+		Connect("Q156-2")
+		Connect("Q157-2")
+		Connect("Q158-2")
+		Connect("Q159-2")
+		Connect("Q160-2")
+		Connect("Q161-2")
+		Connect("Q162-2")
+		Connect("Q163-2")
+		Connect("Q164-2")
+		Connect("R102-1")
+		Connect("R104-1")
+		Connect("R106-1")
+		Connect("R108-1")
+		Connect("R110-1")
+		Connect("R112-1")
+		Connect("R114-1")
+		Connect("R116-1")
+		Connect("R202-2")
+		Connect("R501-2")
+		Connect("SW301-5")
+		Connect("TP_GND1-1")
+		Connect("TP_GND4-1")
+		Connect("U101-2")
+		Connect("U101-7")
+		Connect("U101-12")
+		Connect("U102-2")
+		Connect("U102-7")
+		Connect("U102-12")
+		Connect("U103-10")
+		Connect("U104-10")
+		Connect("U105-10")
+		Connect("U106-10")
+		Connect("U107-10")
+		Connect("U108-10")
+		Connect("U109-10")
+		Connect("U110-10")
+		Connect("U111-2")
+		Connect("U301-5")
+		Connect("U302-4")
+		Connect("U302-5")
+		Connect("U302-8")
+		Connect("U401-2")
+		Connect("U401-4")
+	)
+	Net("ICSP_MCLR" "(unknown)")
+	(
+		Connect("ICSP201-1")
+		Connect("R201-1")
+		Connect("TP_MCLR-1")
+		Connect("U301-4")
+	)
+	Net("ICSP_PGC" "(unknown)")
+	(
+		Connect("ICSP201-5")
+		Connect("SW301-2")
+		Connect("U301-12")
+	)
+	Net("ICSP_PGD" "(unknown)")
+	(
+		Connect("ICSP201-4")
+		Connect("SW301-1")
+		Connect("U301-13")
+	)
+	Net("ICSP_PGM" "(unknown)")
+	(
+		Connect("ICSP201-6")
+		Connect("R202-1")
+		Connect("SW301-3")
+		Connect("U301-11")
+	)
+	Net("PIC_OSC_SRC" "(unknown)")
+	(
+		Connect("TP_PIC_OSC-1")
+		Connect("TP_SR1-1")
+		Connect("U101-4")
+		Connect("U103-4")
+		Connect("U301-16")
+	)
+	Net("PWM" "(unknown)")
+	(
+		Connect("TP_PWM-1")
+		Connect("U103-1")
+		Connect("U104-1")
+		Connect("U105-1")
+		Connect("U106-1")
+		Connect("U107-1")
+		Connect("U108-1")
+		Connect("U109-1")
+		Connect("U110-1")
+		Connect("U301-18")
+	)
+	Net("UI_BRIGHT" "(unknown)")
+	(
+		Connect("R501-3")
+		Connect("TP_BRIGHT-1")
+		Connect("U301-1")
+	)
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("TP_SR4-1")
+		Connect("U101-11")
+		Connect("U103-7")
+	)
+	Net("unnamed_net2" "(unknown)")
+	(
+		Connect("TP_SR3-1")
+		Connect("U101-6")
+		Connect("U101-13")
+		Connect("U103-6")
+	)
+	Net("unnamed_net3" "(unknown)")
+	(
+		Connect("TP_SR5-1")
+		Connect("U101-10")
+		Connect("U103-8")
+	)
+	Net("unnamed_net4" "(unknown)")
+	(
+		Connect("TP_SR6-1")
+		Connect("U101-9")
+		Connect("U103-9")
+	)
+	Net("unnamed_net5" "(unknown)")
+	(
+		Connect("TP_SR7-1")
+		Connect("U101-8")
+		Connect("U102-1")
+		Connect("U104-2")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("TP_SR0-1")
+		Connect("U101-3")
+		Connect("U103-3")
+	)
+	Net("unnamed_net7" "(unknown)")
+	(
+		Connect("TP_OSC64MHZ-1")
+		Connect("U101-1")
+		Connect("U103-2")
+		Connect("U111-3")
+	)
+	Net("unnamed_net8" "(unknown)")
+	(
+		Connect("TP_SR2-1")
+		Connect("U101-5")
+		Connect("U103-5")
+	)
+	Net("unnamed_net9" "(unknown)")
+	(
+		Connect("TP_SR12-1")
+		Connect("U102-11")
+		Connect("U104-7")
+	)
+	Net("unnamed_net10" "(unknown)")
+	(
+		Connect("TP_SR11-1")
+		Connect("U102-6")
+		Connect("U102-13")
+		Connect("U104-6")
+	)
+	Net("unnamed_net11" "(unknown)")
+	(
+		Connect("TP_SR13-1")
+		Connect("U102-10")
+		Connect("U104-8")
+	)
+	Net("unnamed_net12" "(unknown)")
+	(
+		Connect("TP_SR14-1")
+		Connect("U102-9")
+		Connect("U104-9")
+	)
+	Net("unnamed_net13" "(unknown)")
+	(
+		Connect("TP_SR15-1")
+		Connect("U102-8")
+	)
+	Net("unnamed_net14" "(unknown)")
+	(
+		Connect("TP_SR8-1")
+		Connect("U102-3")
+		Connect("U104-3")
+	)
+	Net("unnamed_net15" "(unknown)")
+	(
+		Connect("TP_SR9-1")
+		Connect("U102-4")
+		Connect("U104-4")
+	)
+	Net("unnamed_net16" "(unknown)")
+	(
+		Connect("TP_SR10-1")
+		Connect("U102-5")
+		Connect("U104-5")
+	)
+	Net("unnamed_net17" "(unknown)")
+	(
+		Connect("Q101-1")
+		Connect("U103-19")
+	)
+	Net("unnamed_net18" "(unknown)")
+	(
+		Connect("Q102-1")
+		Connect("U103-18")
+	)
+	Net("unnamed_net19" "(unknown)")
+	(
+		Connect("Q103-1")
+		Connect("U103-17")
+	)
+	Net("unnamed_net20" "(unknown)")
+	(
+		Connect("Q104-1")
+		Connect("U103-16")
+	)
+	Net("unnamed_net21" "(unknown)")
+	(
+		Connect("Q105-1")
+		Connect("U103-15")
+	)
+	Net("unnamed_net22" "(unknown)")
+	(
+		Connect("Q106-1")
+		Connect("U103-14")
+	)
+	Net("unnamed_net23" "(unknown)")
+	(
+		Connect("Q107-1")
+		Connect("U103-13")
+	)
+	Net("unnamed_net24" "(unknown)")
+	(
+		Connect("Q108-1")
+		Connect("U103-12")
+	)
+	Net("unnamed_net25" "(unknown)")
+	(
+		Connect("Q109-1")
+		Connect("U104-19")
+	)
+	Net("unnamed_net26" "(unknown)")
+	(
+		Connect("Q110-1")
+		Connect("U104-18")
+	)
+	Net("unnamed_net27" "(unknown)")
+	(
+		Connect("Q111-1")
+		Connect("U104-17")
+	)
+	Net("unnamed_net28" "(unknown)")
+	(
+		Connect("Q112-1")
+		Connect("U104-16")
+	)
+	Net("unnamed_net29" "(unknown)")
+	(
+		Connect("Q113-1")
+		Connect("U104-15")
+	)
+	Net("unnamed_net30" "(unknown)")
+	(
+		Connect("Q114-1")
+		Connect("U104-14")
+	)
+	Net("unnamed_net31" "(unknown)")
+	(
+		Connect("Q115-1")
+		Connect("U104-13")
+	)
+	Net("unnamed_net32" "(unknown)")
+	(
+		Connect("Q116-1")
+		Connect("U104-12")
+	)
+	Net("unnamed_net33" "(unknown)")
+	(
+		Connect("Q117-1")
+		Connect("U105-19")
+	)
+	Net("unnamed_net34" "(unknown)")
+	(
+		Connect("Q118-1")
+		Connect("U105-18")
+	)
+	Net("unnamed_net35" "(unknown)")
+	(
+		Connect("Q119-1")
+		Connect("U105-17")
+	)
+	Net("unnamed_net36" "(unknown)")
+	(
+		Connect("Q120-1")
+		Connect("U105-16")
+	)
+	Net("unnamed_net37" "(unknown)")
+	(
+		Connect("Q121-1")
+		Connect("U105-15")
+	)
+	Net("unnamed_net38" "(unknown)")
+	(
+		Connect("Q122-1")
+		Connect("U105-14")
+	)
+	Net("unnamed_net39" "(unknown)")
+	(
+		Connect("Q123-1")
+		Connect("U105-13")
+	)
+	Net("unnamed_net40" "(unknown)")
+	(
+		Connect("Q124-1")
+		Connect("U105-12")
+	)
+	Net("unnamed_net41" "(unknown)")
+	(
+		Connect("Q125-1")
+		Connect("U106-19")
+	)
+	Net("unnamed_net42" "(unknown)")
+	(
+		Connect("Q126-1")
+		Connect("U106-18")
+	)
+	Net("unnamed_net43" "(unknown)")
+	(
+		Connect("Q127-1")
+		Connect("U106-17")
+	)
+	Net("unnamed_net44" "(unknown)")
+	(
+		Connect("Q128-1")
+		Connect("U106-16")
+	)
+	Net("unnamed_net45" "(unknown)")
+	(
+		Connect("Q129-1")
+		Connect("U106-15")
+	)
+	Net("unnamed_net46" "(unknown)")
+	(
+		Connect("Q130-1")
+		Connect("U106-14")
+	)
+	Net("unnamed_net47" "(unknown)")
+	(
+		Connect("Q131-1")
+		Connect("U106-13")
+	)
+	Net("unnamed_net48" "(unknown)")
+	(
+		Connect("Q132-1")
+		Connect("U106-12")
+	)
+	Net("unnamed_net49" "(unknown)")
+	(
+		Connect("Q133-1")
+		Connect("U107-19")
+	)
+	Net("unnamed_net50" "(unknown)")
+	(
+		Connect("Q134-1")
+		Connect("U107-18")
+	)
+	Net("unnamed_net51" "(unknown)")
+	(
+		Connect("Q135-1")
+		Connect("U107-17")
+	)
+	Net("unnamed_net52" "(unknown)")
+	(
+		Connect("Q136-1")
+		Connect("U107-16")
+	)
+	Net("unnamed_net53" "(unknown)")
+	(
+		Connect("Q137-1")
+		Connect("U107-15")
+	)
+	Net("unnamed_net54" "(unknown)")
+	(
+		Connect("Q138-1")
+		Connect("U107-14")
+	)
+	Net("unnamed_net55" "(unknown)")
+	(
+		Connect("Q139-1")
+		Connect("U107-13")
+	)
+	Net("unnamed_net56" "(unknown)")
+	(
+		Connect("Q140-1")
+		Connect("U107-12")
+	)
+	Net("unnamed_net57" "(unknown)")
+	(
+		Connect("Q141-1")
+		Connect("U108-19")
+	)
+	Net("unnamed_net58" "(unknown)")
+	(
+		Connect("Q142-1")
+		Connect("U108-18")
+	)
+	Net("unnamed_net59" "(unknown)")
+	(
+		Connect("Q143-1")
+		Connect("U108-17")
+	)
+	Net("unnamed_net60" "(unknown)")
+	(
+		Connect("Q144-1")
+		Connect("U108-16")
+	)
+	Net("unnamed_net61" "(unknown)")
+	(
+		Connect("Q145-1")
+		Connect("U108-15")
+	)
+	Net("unnamed_net62" "(unknown)")
+	(
+		Connect("Q146-1")
+		Connect("U108-14")
+	)
+	Net("unnamed_net63" "(unknown)")
+	(
+		Connect("Q147-1")
+		Connect("U108-13")
+	)
+	Net("unnamed_net64" "(unknown)")
+	(
+		Connect("Q148-1")
+		Connect("U108-12")
+	)
+	Net("unnamed_net65" "(unknown)")
+	(
+		Connect("Q149-1")
+		Connect("U109-19")
+	)
+	Net("unnamed_net66" "(unknown)")
+	(
+		Connect("Q150-1")
+		Connect("U109-18")
+	)
+	Net("unnamed_net67" "(unknown)")
+	(
+		Connect("Q151-1")
+		Connect("U109-17")
+	)
+	Net("unnamed_net68" "(unknown)")
+	(
+		Connect("Q152-1")
+		Connect("U109-16")
+	)
+	Net("unnamed_net69" "(unknown)")
+	(
+		Connect("Q153-1")
+		Connect("U109-15")
+	)
+	Net("unnamed_net70" "(unknown)")
+	(
+		Connect("Q154-1")
+		Connect("U109-14")
+	)
+	Net("unnamed_net71" "(unknown)")
+	(
+		Connect("Q155-1")
+		Connect("U109-13")
+	)
+	Net("unnamed_net72" "(unknown)")
+	(
+		Connect("Q156-1")
+		Connect("U109-12")
+	)
+	Net("unnamed_net73" "(unknown)")
+	(
+		Connect("Q157-1")
+		Connect("U110-19")
+	)
+	Net("unnamed_net74" "(unknown)")
+	(
+		Connect("Q158-1")
+		Connect("U110-18")
+	)
+	Net("unnamed_net75" "(unknown)")
+	(
+		Connect("Q159-1")
+		Connect("U110-17")
+	)
+	Net("unnamed_net76" "(unknown)")
+	(
+		Connect("Q160-1")
+		Connect("U110-16")
+	)
+	Net("unnamed_net77" "(unknown)")
+	(
+		Connect("Q161-1")
+		Connect("U110-15")
+	)
+	Net("unnamed_net78" "(unknown)")
+	(
+		Connect("Q162-1")
+		Connect("U110-14")
+	)
+	Net("unnamed_net79" "(unknown)")
+	(
+		Connect("Q163-1")
+		Connect("U110-13")
+	)
+	Net("unnamed_net80" "(unknown)")
+	(
+		Connect("Q164-1")
+		Connect("U110-12")
+	)
+	Net("unnamed_net81" "(unknown)")
+	(
+		Connect("D101-1")
+		Connect("Q101-3")
+	)
+	Net("unnamed_net82" "(unknown)")
+	(
+		Connect("D101-4")
+		Connect("D102-4")
+		Connect("D103-4")
+		Connect("D104-4")
+		Connect("D105-4")
+		Connect("D106-4")
+		Connect("D107-4")
+		Connect("D108-4")
+		Connect("R101-2")
+		Connect("TP_VLED0-1")
+		Connect("U112-2")
+		Connect("U112-4")
+	)
+	Net("unnamed_net83" "(unknown)")
+	(
+		Connect("D101-2")
+		Connect("D101-3")
+	)
+	Net("unnamed_net84" "(unknown)")
+	(
+		Connect("R101-1")
+		Connect("R102-2")
+		Connect("U112-1")
+	)
+	Net("unnamed_net85" "(unknown)")
+	(
+		Connect("D102-1")
+		Connect("Q102-3")
+	)
+	Net("unnamed_net86" "(unknown)")
+	(
+		Connect("D102-2")
+		Connect("D102-3")
+	)
+	Net("unnamed_net87" "(unknown)")
+	(
+		Connect("D103-1")
+		Connect("Q103-3")
+	)
+	Net("unnamed_net88" "(unknown)")
+	(
+		Connect("D103-2")
+		Connect("D103-3")
+	)
+	Net("unnamed_net89" "(unknown)")
+	(
+		Connect("D104-1")
+		Connect("Q104-3")
+	)
+	Net("unnamed_net90" "(unknown)")
+	(
+		Connect("D104-2")
+		Connect("D104-3")
+	)
+	Net("unnamed_net91" "(unknown)")
+	(
+		Connect("D105-1")
+		Connect("Q105-3")
+	)
+	Net("unnamed_net92" "(unknown)")
+	(
+		Connect("D105-2")
+		Connect("D105-3")
+	)
+	Net("unnamed_net93" "(unknown)")
+	(
+		Connect("D106-1")
+		Connect("Q106-3")
+	)
+	Net("unnamed_net94" "(unknown)")
+	(
+		Connect("D106-2")
+		Connect("D106-3")
+	)
+	Net("unnamed_net95" "(unknown)")
+	(
+		Connect("D107-1")
+		Connect("Q107-3")
+	)
+	Net("unnamed_net96" "(unknown)")
+	(
+		Connect("D107-2")
+		Connect("D107-3")
+	)
+	Net("unnamed_net97" "(unknown)")
+	(
+		Connect("D108-1")
+		Connect("Q108-3")
+	)
+	Net("unnamed_net98" "(unknown)")
+	(
+		Connect("D108-2")
+		Connect("D108-3")
+	)
+	Net("unnamed_net99" "(unknown)")
+	(
+		Connect("D109-1")
+		Connect("Q109-3")
+	)
+	Net("unnamed_net100" "(unknown)")
+	(
+		Connect("D109-4")
+		Connect("D110-4")
+		Connect("D111-4")
+		Connect("D112-4")
+		Connect("D113-4")
+		Connect("D114-4")
+		Connect("D115-4")
+		Connect("D116-4")
+		Connect("R103-2")
+		Connect("TP_VLED1-1")
+		Connect("U113-2")
+		Connect("U113-4")
+	)
+	Net("unnamed_net101" "(unknown)")
+	(
+		Connect("D109-2")
+		Connect("D109-3")
+	)
+	Net("unnamed_net102" "(unknown)")
+	(
+		Connect("R103-1")
+		Connect("R104-2")
+		Connect("U113-1")
+	)
+	Net("unnamed_net103" "(unknown)")
+	(
+		Connect("D110-1")
+		Connect("Q110-3")
+	)
+	Net("unnamed_net104" "(unknown)")
+	(
+		Connect("D110-2")
+		Connect("D110-3")
+	)
+	Net("unnamed_net105" "(unknown)")
+	(
+		Connect("D111-1")
+		Connect("Q111-3")
+	)
+	Net("unnamed_net106" "(unknown)")
+	(
+		Connect("D111-2")
+		Connect("D111-3")
+	)
+	Net("unnamed_net107" "(unknown)")
+	(
+		Connect("D112-1")
+		Connect("Q112-3")
+	)
+	Net("unnamed_net108" "(unknown)")
+	(
+		Connect("D112-2")
+		Connect("D112-3")
+	)
+	Net("unnamed_net109" "(unknown)")
+	(
+		Connect("D113-1")
+		Connect("Q113-3")
+	)
+	Net("unnamed_net110" "(unknown)")
+	(
+		Connect("D113-2")
+		Connect("D113-3")
+	)
+	Net("unnamed_net111" "(unknown)")
+	(
+		Connect("D114-1")
+		Connect("Q114-3")
+	)
+	Net("unnamed_net112" "(unknown)")
+	(
+		Connect("D114-2")
+		Connect("D114-3")
+	)
+	Net("unnamed_net113" "(unknown)")
+	(
+		Connect("D115-1")
+		Connect("Q115-3")
+	)
+	Net("unnamed_net114" "(unknown)")
+	(
+		Connect("D115-2")
+		Connect("D115-3")
+	)
+	Net("unnamed_net115" "(unknown)")
+	(
+		Connect("D116-1")
+		Connect("Q116-3")
+	)
+	Net("unnamed_net116" "(unknown)")
+	(
+		Connect("D116-2")
+		Connect("D116-3")
+	)
+	Net("unnamed_net117" "(unknown)")
+	(
+		Connect("D117-4")
+		Connect("D118-4")
+		Connect("D119-4")
+		Connect("D120-4")
+		Connect("D121-4")
+		Connect("D122-4")
+		Connect("D123-4")
+		Connect("D124-4")
+		Connect("R105-2")
+		Connect("TP_VLED2-1")
+		Connect("U114-2")
+		Connect("U114-4")
+	)
+	Net("unnamed_net118" "(unknown)")
+	(
+		Connect("D117-2")
+		Connect("D117-3")
+	)
+	Net("unnamed_net119" "(unknown)")
+	(
+		Connect("D117-1")
+		Connect("Q117-3")
+	)
+	Net("unnamed_net120" "(unknown)")
+	(
+		Connect("R105-1")
+		Connect("R106-2")
+		Connect("U114-1")
+	)
+	Net("unnamed_net121" "(unknown)")
+	(
+		Connect("D118-2")
+		Connect("D118-3")
+	)
+	Net("unnamed_net122" "(unknown)")
+	(
+		Connect("D118-1")
+		Connect("Q118-3")
+	)
+	Net("unnamed_net123" "(unknown)")
+	(
+		Connect("D119-2")
+		Connect("D119-3")
+	)
+	Net("unnamed_net124" "(unknown)")
+	(
+		Connect("D119-1")
+		Connect("Q119-3")
+	)
+	Net("unnamed_net125" "(unknown)")
+	(
+		Connect("D120-2")
+		Connect("D120-3")
+	)
+	Net("unnamed_net126" "(unknown)")
+	(
+		Connect("D120-1")
+		Connect("Q120-3")
+	)
+	Net("unnamed_net127" "(unknown)")
+	(
+		Connect("D121-2")
+		Connect("D121-3")
+	)
+	Net("unnamed_net128" "(unknown)")
+	(
+		Connect("D121-1")
+		Connect("Q121-3")
+	)
+	Net("unnamed_net129" "(unknown)")
+	(
+		Connect("D122-2")
+		Connect("D122-3")
+	)
+	Net("unnamed_net130" "(unknown)")
+	(
+		Connect("D122-1")
+		Connect("Q122-3")
+	)
+	Net("unnamed_net131" "(unknown)")
+	(
+		Connect("D123-2")
+		Connect("D123-3")
+	)
+	Net("unnamed_net132" "(unknown)")
+	(
+		Connect("D123-1")
+		Connect("Q123-3")
+	)
+	Net("unnamed_net133" "(unknown)")
+	(
+		Connect("D124-2")
+		Connect("D124-3")
+	)
+	Net("unnamed_net134" "(unknown)")
+	(
+		Connect("D124-1")
+		Connect("Q124-3")
+	)
+	Net("unnamed_net135" "(unknown)")
+	(
+		Connect("D125-4")
+		Connect("D126-4")
+		Connect("D127-4")
+		Connect("D128-4")
+		Connect("D129-4")
+		Connect("D130-4")
+		Connect("D131-4")
+		Connect("D132-4")
+		Connect("R107-2")
+		Connect("TP_VLED3-1")
+		Connect("U115-2")
+		Connect("U115-4")
+	)
+	Net("unnamed_net136" "(unknown)")
+	(
+		Connect("D125-2")
+		Connect("D125-3")
+	)
+	Net("unnamed_net137" "(unknown)")
+	(
+		Connect("D125-1")
+		Connect("Q125-3")
+	)
+	Net("unnamed_net138" "(unknown)")
+	(
+		Connect("R107-1")
+		Connect("R108-2")
+		Connect("U115-1")
+	)
+	Net("unnamed_net139" "(unknown)")
+	(
+		Connect("D126-2")
+		Connect("D126-3")
+	)
+	Net("unnamed_net140" "(unknown)")
+	(
+		Connect("D126-1")
+		Connect("Q126-3")
+	)
+	Net("unnamed_net141" "(unknown)")
+	(
+		Connect("D127-2")
+		Connect("D127-3")
+	)
+	Net("unnamed_net142" "(unknown)")
+	(
+		Connect("D127-1")
+		Connect("Q127-3")
+	)
+	Net("unnamed_net143" "(unknown)")
+	(
+		Connect("D128-2")
+		Connect("D128-3")
+	)
+	Net("unnamed_net144" "(unknown)")
+	(
+		Connect("D128-1")
+		Connect("Q128-3")
+	)
+	Net("unnamed_net145" "(unknown)")
+	(
+		Connect("D129-2")
+		Connect("D129-3")
+	)
+	Net("unnamed_net146" "(unknown)")
+	(
+		Connect("D129-1")
+		Connect("Q129-3")
+	)
+	Net("unnamed_net147" "(unknown)")
+	(
+		Connect("D130-2")
+		Connect("D130-3")
+	)
+	Net("unnamed_net148" "(unknown)")
+	(
+		Connect("D130-1")
+		Connect("Q130-3")
+	)
+	Net("unnamed_net149" "(unknown)")
+	(
+		Connect("D131-2")
+		Connect("D131-3")
+	)
+	Net("unnamed_net150" "(unknown)")
+	(
+		Connect("D131-1")
+		Connect("Q131-3")
+	)
+	Net("unnamed_net151" "(unknown)")
+	(
+		Connect("D132-2")
+		Connect("D132-3")
+	)
+	Net("unnamed_net152" "(unknown)")
+	(
+		Connect("D132-1")
+		Connect("Q132-3")
+	)
+	Net("unnamed_net153" "(unknown)")
+	(
+		Connect("D133-4")
+		Connect("D134-4")
+		Connect("D135-4")
+		Connect("D136-4")
+		Connect("D137-4")
+		Connect("D138-4")
+		Connect("D139-4")
+		Connect("D140-4")
+		Connect("R109-2")
+		Connect("TP_VLED4-1")
+		Connect("U116-2")
+		Connect("U116-4")
+	)
+	Net("unnamed_net154" "(unknown)")
+	(
+		Connect("D133-2")
+		Connect("D133-3")
+	)
+	Net("unnamed_net155" "(unknown)")
+	(
+		Connect("D133-1")
+		Connect("Q133-3")
+	)
+	Net("unnamed_net156" "(unknown)")
+	(
+		Connect("R109-1")
+		Connect("R110-2")
+		Connect("U116-1")
+	)
+	Net("unnamed_net157" "(unknown)")
+	(
+		Connect("D134-2")
+		Connect("D134-3")
+	)
+	Net("unnamed_net158" "(unknown)")
+	(
+		Connect("D134-1")
+		Connect("Q134-3")
+	)
+	Net("unnamed_net159" "(unknown)")
+	(
+		Connect("D135-2")
+		Connect("D135-3")
+	)
+	Net("unnamed_net160" "(unknown)")
+	(
+		Connect("D135-1")
+		Connect("Q135-3")
+	)
+	Net("unnamed_net161" "(unknown)")
+	(
+		Connect("D136-2")
+		Connect("D136-3")
+	)
+	Net("unnamed_net162" "(unknown)")
+	(
+		Connect("D136-1")
+		Connect("Q136-3")
+	)
+	Net("unnamed_net163" "(unknown)")
+	(
+		Connect("D137-2")
+		Connect("D137-3")
+	)
+	Net("unnamed_net164" "(unknown)")
+	(
+		Connect("D137-1")
+		Connect("Q137-3")
+	)
+	Net("unnamed_net165" "(unknown)")
+	(
+		Connect("D138-2")
+		Connect("D138-3")
+	)
+	Net("unnamed_net166" "(unknown)")
+	(
+		Connect("D138-1")
+		Connect("Q138-3")
+	)
+	Net("unnamed_net167" "(unknown)")
+	(
+		Connect("D139-2")
+		Connect("D139-3")
+	)
+	Net("unnamed_net168" "(unknown)")
+	(
+		Connect("D139-1")
+		Connect("Q139-3")
+	)
+	Net("unnamed_net169" "(unknown)")
+	(
+		Connect("D140-2")
+		Connect("D140-3")
+	)
+	Net("unnamed_net170" "(unknown)")
+	(
+		Connect("D140-1")
+		Connect("Q140-3")
+	)
+	Net("unnamed_net171" "(unknown)")
+	(
+		Connect("D141-4")
+		Connect("D142-4")
+		Connect("D143-4")
+		Connect("D144-4")
+		Connect("D145-4")
+		Connect("D146-4")
+		Connect("D147-4")
+		Connect("D148-4")
+		Connect("R111-2")
+		Connect("TP_VLED5-1")
+		Connect("U117-2")
+		Connect("U117-4")
+	)
+	Net("unnamed_net172" "(unknown)")
+	(
+		Connect("D141-2")
+		Connect("D141-3")
+	)
+	Net("unnamed_net173" "(unknown)")
+	(
+		Connect("D141-1")
+		Connect("Q141-3")
+	)
+	Net("unnamed_net174" "(unknown)")
+	(
+		Connect("R111-1")
+		Connect("R112-2")
+		Connect("U117-1")
+	)
+	Net("unnamed_net175" "(unknown)")
+	(
+		Connect("D142-2")
+		Connect("D142-3")
+	)
+	Net("unnamed_net176" "(unknown)")
+	(
+		Connect("D142-1")
+		Connect("Q142-3")
+	)
+	Net("unnamed_net177" "(unknown)")
+	(
+		Connect("D143-2")
+		Connect("D143-3")
+	)
+	Net("unnamed_net178" "(unknown)")
+	(
+		Connect("D143-1")
+		Connect("Q143-3")
+	)
+	Net("unnamed_net179" "(unknown)")
+	(
+		Connect("D144-2")
+		Connect("D144-3")
+	)
+	Net("unnamed_net180" "(unknown)")
+	(
+		Connect("D144-1")
+		Connect("Q144-3")
+	)
+	Net("unnamed_net181" "(unknown)")
+	(
+		Connect("D145-2")
+		Connect("D145-3")
+	)
+	Net("unnamed_net182" "(unknown)")
+	(
+		Connect("D145-1")
+		Connect("Q145-3")
+	)
+	Net("unnamed_net183" "(unknown)")
+	(
+		Connect("D146-2")
+		Connect("D146-3")
+	)
+	Net("unnamed_net184" "(unknown)")
+	(
+		Connect("D146-1")
+		Connect("Q146-3")
+	)
+	Net("unnamed_net185" "(unknown)")
+	(
+		Connect("D147-2")
+		Connect("D147-3")
+	)
+	Net("unnamed_net186" "(unknown)")
+	(
+		Connect("D147-1")
+		Connect("Q147-3")
+	)
+	Net("unnamed_net187" "(unknown)")
+	(
+		Connect("D148-2")
+		Connect("D148-3")
+	)
+	Net("unnamed_net188" "(unknown)")
+	(
+		Connect("D148-1")
+		Connect("Q148-3")
+	)
+	Net("unnamed_net189" "(unknown)")
+	(
+		Connect("D149-4")
+		Connect("D150-4")
+		Connect("D151-4")
+		Connect("D152-4")
+		Connect("D153-4")
+		Connect("D154-4")
+		Connect("D155-4")
+		Connect("D156-4")
+		Connect("R113-2")
+		Connect("TP_VLED6-1")
+		Connect("U118-2")
+		Connect("U118-4")
+	)
+	Net("unnamed_net190" "(unknown)")
+	(
+		Connect("D149-2")
+		Connect("D149-3")
+	)
+	Net("unnamed_net191" "(unknown)")
+	(
+		Connect("D149-1")
+		Connect("Q149-3")
+	)
+	Net("unnamed_net192" "(unknown)")
+	(
+		Connect("R113-1")
+		Connect("R114-2")
+		Connect("U118-1")
+	)
+	Net("unnamed_net193" "(unknown)")
+	(
+		Connect("D150-2")
+		Connect("D150-3")
+	)
+	Net("unnamed_net194" "(unknown)")
+	(
+		Connect("D150-1")
+		Connect("Q150-3")
+	)
+	Net("unnamed_net195" "(unknown)")
+	(
+		Connect("D151-2")
+		Connect("D151-3")
+	)
+	Net("unnamed_net196" "(unknown)")
+	(
+		Connect("D151-1")
+		Connect("Q151-3")
+	)
+	Net("unnamed_net197" "(unknown)")
+	(
+		Connect("D152-2")
+		Connect("D152-3")
+	)
+	Net("unnamed_net198" "(unknown)")
+	(
+		Connect("D152-1")
+		Connect("Q152-3")
+	)
+	Net("unnamed_net199" "(unknown)")
+	(
+		Connect("D153-2")
+		Connect("D153-3")
+	)
+	Net("unnamed_net200" "(unknown)")
+	(
+		Connect("D153-1")
+		Connect("Q153-3")
+	)
+	Net("unnamed_net201" "(unknown)")
+	(
+		Connect("D154-2")
+		Connect("D154-3")
+	)
+	Net("unnamed_net202" "(unknown)")
+	(
+		Connect("D154-1")
+		Connect("Q154-3")
+	)
+	Net("unnamed_net203" "(unknown)")
+	(
+		Connect("D155-2")
+		Connect("D155-3")
+	)
+	Net("unnamed_net204" "(unknown)")
+	(
+		Connect("D155-1")
+		Connect("Q155-3")
+	)
+	Net("unnamed_net205" "(unknown)")
+	(
+		Connect("D156-2")
+		Connect("D156-3")
+	)
+	Net("unnamed_net206" "(unknown)")
+	(
+		Connect("D156-1")
+		Connect("Q156-3")
+	)
+	Net("unnamed_net207" "(unknown)")
+	(
+		Connect("D157-4")
+		Connect("D158-4")
+		Connect("D159-4")
+		Connect("D160-4")
+		Connect("D161-4")
+		Connect("D162-4")
+		Connect("D163-4")
+		Connect("D164-4")
+		Connect("R115-2")
+		Connect("TP_VLED7-1")
+		Connect("U119-2")
+		Connect("U119-4")
+	)
+	Net("unnamed_net208" "(unknown)")
+	(
+		Connect("D157-2")
+		Connect("D157-3")
+	)
+	Net("unnamed_net209" "(unknown)")
+	(
+		Connect("D157-1")
+		Connect("Q157-3")
+	)
+	Net("unnamed_net210" "(unknown)")
+	(
+		Connect("R115-1")
+		Connect("R116-2")
+		Connect("U119-1")
+	)
+	Net("unnamed_net211" "(unknown)")
+	(
+		Connect("D158-2")
+		Connect("D158-3")
+	)
+	Net("unnamed_net212" "(unknown)")
+	(
+		Connect("D158-1")
+		Connect("Q158-3")
+	)
+	Net("unnamed_net213" "(unknown)")
+	(
+		Connect("D159-2")
+		Connect("D159-3")
+	)
+	Net("unnamed_net214" "(unknown)")
+	(
+		Connect("D159-1")
+		Connect("Q159-3")
+	)
+	Net("unnamed_net215" "(unknown)")
+	(
+		Connect("D160-2")
+		Connect("D160-3")
+	)
+	Net("unnamed_net216" "(unknown)")
+	(
+		Connect("D160-1")
+		Connect("Q160-3")
+	)
+	Net("unnamed_net217" "(unknown)")
+	(
+		Connect("D161-2")
+		Connect("D161-3")
+	)
+	Net("unnamed_net218" "(unknown)")
+	(
+		Connect("D161-1")
+		Connect("Q161-3")
+	)
+	Net("unnamed_net219" "(unknown)")
+	(
+		Connect("D162-2")
+		Connect("D162-3")
+	)
+	Net("unnamed_net220" "(unknown)")
+	(
+		Connect("D162-1")
+		Connect("Q162-3")
+	)
+	Net("unnamed_net221" "(unknown)")
+	(
+		Connect("D163-2")
+		Connect("D163-3")
+	)
+	Net("unnamed_net222" "(unknown)")
+	(
+		Connect("D163-1")
+		Connect("Q163-3")
+	)
+	Net("unnamed_net223" "(unknown)")
+	(
+		Connect("D164-2")
+		Connect("D164-3")
+	)
+	Net("unnamed_net224" "(unknown)")
+	(
+		Connect("D164-1")
+		Connect("Q164-3")
+	)
+	Net("unnamed_net225" "(unknown)")
+	(
+		Connect("R301-2")
+		Connect("SW301-4")
+		Connect("U301-3")
+	)
+	Net("unnamed_net226" "(unknown)")
+	(
+		Connect("C301-2")
+		Connect("C303-2")
+		Connect("C304-2")
+		Connect("C305-2")
+		Connect("D301-1")
+		Connect("U301-14")
+	)
+	Net("unnamed_net227" "(unknown)")
+	(
+		Connect("TP_Y6-1")
+		Connect("U302-9")
+	)
+	Net("unnamed_net228" "(unknown)")
+	(
+		Connect("TP_Y7-1")
+		Connect("U302-7")
+	)
+	Net("unnamed_net229" "(unknown)")
+	(
+		Connect("CONN401-1")
+		Connect("R401-1")
+	)
+	Net("Vcc" "(unknown)")
+	(
+		Connect("C101-2")
+		Connect("C102-2")
+		Connect("C103-2")
+		Connect("C104-2")
+		Connect("C105-2")
+		Connect("C106-2")
+		Connect("C107-2")
+		Connect("C108-2")
+		Connect("C109-2")
+		Connect("C110-2")
+		Connect("C111-2")
+		Connect("C112-2")
+		Connect("C113-2")
+		Connect("C114-2")
+		Connect("C115-2")
+		Connect("C116-2")
+		Connect("C117-2")
+		Connect("C118-2")
+		Connect("C119-2")
+		Connect("C120-2")
+		Connect("C121-2")
+		Connect("C122-2")
+		Connect("C123-2")
+		Connect("C124-2")
+		Connect("C125-2")
+		Connect("C126-2")
+		Connect("C127-2")
+		Connect("C302-2")
+		Connect("C401-2")
+		Connect("C402-2")
+		Connect("C404-2")
+		Connect("D301-2")
+		Connect("ICSP201-2")
+		Connect("R201-2")
+		Connect("R301-1")
+		Connect("R501-1")
+		Connect("TP_VCC1-1")
+		Connect("TP_VCC4-1")
+		Connect("U101-14")
+		Connect("U102-14")
+		Connect("U103-11")
+		Connect("U103-20")
+		Connect("U104-11")
+		Connect("U104-20")
+		Connect("U105-20")
+		Connect("U106-20")
+		Connect("U107-20")
+		Connect("U108-20")
+		Connect("U109-20")
+		Connect("U110-20")
+		Connect("U111-4")
+		Connect("U302-6")
+		Connect("U302-16")
+		Connect("U401-3")
+	)
+	Net("Vled" "(unknown)")
+	(
+		Connect("C403-2")
+		Connect("D401-1")
+		Connect("R401-2")
+		Connect("TP_VRAW-1")
+		Connect("U112-3")
+		Connect("U113-3")
+		Connect("U114-3")
+		Connect("U115-3")
+		Connect("U116-3")
+		Connect("U117-3")
+		Connect("U118-3")
+		Connect("U119-3")
+		Connect("U401-1")
+	)
+)
