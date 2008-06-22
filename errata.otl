@@ -1,4 +1,4 @@
-[_] 41% Todo for v1.0 pcb spin
+[_] 38% Todo for v1.0 pcb spin
 	[X] LED lin-regs are powered by Vcc, fix
 	[_] Replace all Y5V 0.1uF's with X7R's
 	[X] Extra 100uF caps for PIC and associated diode
@@ -11,4 +11,5 @@
 	[X] Check SO wide vs narrow issues
 	[_] Draw black on white frame, consisting of two parallel lines
 		: Process with *white* soldermask, not black
+	[_] Check footprint on 100uF caps
 	[_] Version and title text
