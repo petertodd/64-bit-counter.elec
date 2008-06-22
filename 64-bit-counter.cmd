@@ -470,6 +470,24 @@ ChangePinName(Q112, 1, G)
 # Start of element TP_Y5
 ChangePinName(TP_Y5, 1, 1)
 
+# Start of element RN8
+ChangePinName(RN8, 8, 8)
+ChangePinName(RN8, 7, 7)
+ChangePinName(RN8, 6, 6)
+ChangePinName(RN8, 5, 5)
+ChangePinName(RN8, 4, 4)
+ChangePinName(RN8, 3, 3)
+ChangePinName(RN8, 2, 2)
+ChangePinName(RN8, 9, 9)
+ChangePinName(RN8, 10, 10)
+ChangePinName(RN8, 11, 11)
+ChangePinName(RN8, 12, 12)
+ChangePinName(RN8, 13, 13)
+ChangePinName(RN8, 14, 14)
+ChangePinName(RN8, 15, 15)
+ChangePinName(RN8, 16, 16)
+ChangePinName(RN8, 1, 1)
+
 # Start of element D164
 ChangePinName(D164, 1, 1)
 ChangePinName(D164, 2, 2)
@@ -483,6 +501,24 @@ ChangePinName(Q111, 1, G)
 
 # Start of element TP_Y4
 ChangePinName(TP_Y4, 1, 1)
+
+# Start of element RN7
+ChangePinName(RN7, 8, 8)
+ChangePinName(RN7, 7, 7)
+ChangePinName(RN7, 6, 6)
+ChangePinName(RN7, 5, 5)
+ChangePinName(RN7, 4, 4)
+ChangePinName(RN7, 3, 3)
+ChangePinName(RN7, 2, 2)
+ChangePinName(RN7, 9, 9)
+ChangePinName(RN7, 10, 10)
+ChangePinName(RN7, 11, 11)
+ChangePinName(RN7, 12, 12)
+ChangePinName(RN7, 13, 13)
+ChangePinName(RN7, 14, 14)
+ChangePinName(RN7, 15, 15)
+ChangePinName(RN7, 16, 16)
+ChangePinName(RN7, 1, 1)
 
 # Start of element D163
 ChangePinName(D163, 1, 1)
@@ -498,6 +534,24 @@ ChangePinName(Q110, 1, G)
 # Start of element TP_Y3
 ChangePinName(TP_Y3, 1, 1)
 
+# Start of element RN6
+ChangePinName(RN6, 8, 8)
+ChangePinName(RN6, 7, 7)
+ChangePinName(RN6, 6, 6)
+ChangePinName(RN6, 5, 5)
+ChangePinName(RN6, 4, 4)
+ChangePinName(RN6, 3, 3)
+ChangePinName(RN6, 2, 2)
+ChangePinName(RN6, 9, 9)
+ChangePinName(RN6, 10, 10)
+ChangePinName(RN6, 11, 11)
+ChangePinName(RN6, 12, 12)
+ChangePinName(RN6, 13, 13)
+ChangePinName(RN6, 14, 14)
+ChangePinName(RN6, 15, 15)
+ChangePinName(RN6, 16, 16)
+ChangePinName(RN6, 1, 1)
+
 # Start of element D162
 ChangePinName(D162, 1, 1)
 ChangePinName(D162, 2, 2)
@@ -506,6 +560,24 @@ ChangePinName(D162, 4, 4)
 
 # Start of element TP_Y2
 ChangePinName(TP_Y2, 1, 1)
+
+# Start of element RN5
+ChangePinName(RN5, 8, 8)
+ChangePinName(RN5, 7, 7)
+ChangePinName(RN5, 6, 6)
+ChangePinName(RN5, 5, 5)
+ChangePinName(RN5, 4, 4)
+ChangePinName(RN5, 3, 3)
+ChangePinName(RN5, 2, 2)
+ChangePinName(RN5, 9, 9)
+ChangePinName(RN5, 10, 10)
+ChangePinName(RN5, 11, 11)
+ChangePinName(RN5, 12, 12)
+ChangePinName(RN5, 13, 13)
+ChangePinName(RN5, 14, 14)
+ChangePinName(RN5, 15, 15)
+ChangePinName(RN5, 16, 16)
+ChangePinName(RN5, 1, 1)
 
 # Start of element D161
 ChangePinName(D161, 1, 1)
@@ -516,6 +588,24 @@ ChangePinName(D161, 4, 4)
 # Start of element TP_Y1
 ChangePinName(TP_Y1, 1, 1)
 
+# Start of element RN4
+ChangePinName(RN4, 8, 8)
+ChangePinName(RN4, 7, 7)
+ChangePinName(RN4, 6, 6)
+ChangePinName(RN4, 5, 5)
+ChangePinName(RN4, 4, 4)
+ChangePinName(RN4, 3, 3)
+ChangePinName(RN4, 2, 2)
+ChangePinName(RN4, 9, 9)
+ChangePinName(RN4, 10, 10)
+ChangePinName(RN4, 11, 11)
+ChangePinName(RN4, 12, 12)
+ChangePinName(RN4, 13, 13)
+ChangePinName(RN4, 14, 14)
+ChangePinName(RN4, 15, 15)
+ChangePinName(RN4, 16, 16)
+ChangePinName(RN4, 1, 1)
+
 # Start of element D160
 ChangePinName(D160, 1, 1)
 ChangePinName(D160, 2, 2)
@@ -525,15 +615,69 @@ ChangePinName(D160, 4, 4)
 # Start of element TP_Y0
 ChangePinName(TP_Y0, 1, 1)
 
+# Start of element RN3
+ChangePinName(RN3, 8, 8)
+ChangePinName(RN3, 7, 7)
+ChangePinName(RN3, 6, 6)
+ChangePinName(RN3, 5, 5)
+ChangePinName(RN3, 4, 4)
+ChangePinName(RN3, 3, 3)
+ChangePinName(RN3, 2, 2)
+ChangePinName(RN3, 9, 9)
+ChangePinName(RN3, 10, 10)
+ChangePinName(RN3, 11, 11)
+ChangePinName(RN3, 12, 12)
+ChangePinName(RN3, 13, 13)
+ChangePinName(RN3, 14, 14)
+ChangePinName(RN3, 15, 15)
+ChangePinName(RN3, 16, 16)
+ChangePinName(RN3, 1, 1)
+
 # Start of element Q164
 ChangePinName(Q164, 2, S)
 ChangePinName(Q164, 3, D)
 ChangePinName(Q164, 1, G)
 
+# Start of element RN2
+ChangePinName(RN2, 8, 8)
+ChangePinName(RN2, 7, 7)
+ChangePinName(RN2, 6, 6)
+ChangePinName(RN2, 5, 5)
+ChangePinName(RN2, 4, 4)
+ChangePinName(RN2, 3, 3)
+ChangePinName(RN2, 2, 2)
+ChangePinName(RN2, 9, 9)
+ChangePinName(RN2, 10, 10)
+ChangePinName(RN2, 11, 11)
+ChangePinName(RN2, 12, 12)
+ChangePinName(RN2, 13, 13)
+ChangePinName(RN2, 14, 14)
+ChangePinName(RN2, 15, 15)
+ChangePinName(RN2, 16, 16)
+ChangePinName(RN2, 1, 1)
+
 # Start of element Q163
 ChangePinName(Q163, 2, S)
 ChangePinName(Q163, 3, D)
 ChangePinName(Q163, 1, G)
+
+# Start of element RN1
+ChangePinName(RN1, 8, 8)
+ChangePinName(RN1, 7, 7)
+ChangePinName(RN1, 6, 6)
+ChangePinName(RN1, 5, 5)
+ChangePinName(RN1, 4, 4)
+ChangePinName(RN1, 3, 3)
+ChangePinName(RN1, 2, 2)
+ChangePinName(RN1, 9, 9)
+ChangePinName(RN1, 10, 10)
+ChangePinName(RN1, 11, 11)
+ChangePinName(RN1, 12, 12)
+ChangePinName(RN1, 13, 13)
+ChangePinName(RN1, 14, 14)
+ChangePinName(RN1, 15, 15)
+ChangePinName(RN1, 16, 16)
+ChangePinName(RN1, 1, 1)
 
 # Start of element Q162
 ChangePinName(Q162, 2, S)
