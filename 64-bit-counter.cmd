@@ -57,6 +57,9 @@ ChangePinName(TP_SR10, 1, 1)
 ChangePinName(C116, 2, 2)
 ChangePinName(C116, 1, 1)
 
+# Start of element TP_BIT_4
+ChangePinName(TP_BIT_4, 1, 1)
+
 # Start of element C115
 ChangePinName(C115, 2, 2)
 ChangePinName(C115, 1, 1)
@@ -67,6 +70,9 @@ ChangePinName(TP_BIT_3, 1, 1)
 # Start of element C114
 ChangePinName(C114, 2, 2)
 ChangePinName(C114, 1, 1)
+
+# Start of element TP_BIT_GND
+ChangePinName(TP_BIT_GND, 1, 1)
 
 # Start of element C113
 ChangePinName(C113, 2, 2)
