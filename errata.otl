@@ -15,3 +15,4 @@
 	[X] LM1117's need 22uF tantalums, fix existing 10uF's
 	[X] Polarity markers for above
 	[_] Version and title text
+		: lower-right, *outside* of frame lines?
