@@ -78,15 +78,15 @@ ChangePinName(TP_BIT_GND, 1, 1)
 ChangePinName(C113, 2, 2)
 ChangePinName(C113, 1, 1)
 
-# Start of element C112
-ChangePinName(C112, 2, 2)
-ChangePinName(C112, 1, 1)
-
 # Start of element D129
 ChangePinName(D129, 1, 1)
 ChangePinName(D129, 2, 2)
 ChangePinName(D129, 3, 3)
 ChangePinName(D129, 4, 4)
+
+# Start of element C112
+ChangePinName(C112, 2, 2)
+ChangePinName(C112, 1, 1)
 
 # Start of element R401
 ChangePinName(R401, 1, 1)
@@ -94,10 +94,6 @@ ChangePinName(R401, 2, 2)
 
 # Start of element TP_SR9
 ChangePinName(TP_SR9, 1, 1)
-
-# Start of element C111
-ChangePinName(C111, 2, 2)
-ChangePinName(C111, 1, 1)
 
 # Start of element D128
 ChangePinName(D128, 1, 1)
@@ -108,15 +104,15 @@ ChangePinName(D128, 4, 4)
 # Start of element TP_SR8
 ChangePinName(TP_SR8, 1, 1)
 
-# Start of element C110
-ChangePinName(C110, 2, 2)
-ChangePinName(C110, 1, 1)
-
 # Start of element D127
 ChangePinName(D127, 1, 1)
 ChangePinName(D127, 2, 2)
 ChangePinName(D127, 3, 3)
 ChangePinName(D127, 4, 4)
+
+# Start of element C110
+ChangePinName(C110, 2, 2)
+ChangePinName(C110, 1, 1)
 
 # Start of element TP_SR7
 ChangePinName(TP_SR7, 1, 1)
@@ -256,16 +252,6 @@ ChangePinName(ICSP201, 1, 1)
 # Start of element TP_GND1
 ChangePinName(TP_GND1, 1, 1)
 
-# Start of element C109
-ChangePinName(C109, 2, 2)
-ChangePinName(C109, 1, 1)
-
-# Start of element U119
-ChangePinName(U119, 4, 4)
-ChangePinName(U119, 1, 1)
-ChangePinName(U119, 2, 2)
-ChangePinName(U119, 3, 3)
-
 # Start of element C108
 ChangePinName(C108, 2, 2)
 ChangePinName(C108, 1, 1)
@@ -276,23 +262,9 @@ ChangePinName(U118, 1, 1)
 ChangePinName(U118, 2, 2)
 ChangePinName(U118, 3, 3)
 
-# Start of element C107
-ChangePinName(C107, 2, 2)
-ChangePinName(C107, 1, 1)
-
-# Start of element U117
-ChangePinName(U117, 4, 4)
-ChangePinName(U117, 1, 1)
-ChangePinName(U117, 2, 2)
-ChangePinName(U117, 3, 3)
-
 # Start of element C106
 ChangePinName(C106, 2, 2)
 ChangePinName(C106, 1, 1)
-
-# Start of element C105
-ChangePinName(C105, 2, 2)
-ChangePinName(C105, 1, 1)
 
 # Start of element U116
 ChangePinName(U116, 4, 4)
@@ -303,12 +275,6 @@ ChangePinName(U116, 3, 3)
 # Start of element C104
 ChangePinName(C104, 2, 2)
 ChangePinName(C104, 1, 1)
-
-# Start of element U115
-ChangePinName(U115, 4, 4)
-ChangePinName(U115, 1, 1)
-ChangePinName(U115, 2, 2)
-ChangePinName(U115, 3, 3)
 
 # Start of element C103
 ChangePinName(C103, 2, 2)
@@ -329,12 +295,6 @@ ChangePinName(D119, 1, 1)
 ChangePinName(D119, 2, 2)
 ChangePinName(D119, 3, 3)
 ChangePinName(D119, 4, 4)
-
-# Start of element U113
-ChangePinName(U113, 4, 4)
-ChangePinName(U113, 1, 1)
-ChangePinName(U113, 2, 2)
-ChangePinName(U113, 3, 3)
 
 # Start of element C101
 ChangePinName(C101, 2, 2)
@@ -494,16 +454,16 @@ ChangePinName(RN8, 15, 15)
 ChangePinName(RN8, 16, 16)
 ChangePinName(RN8, 1, 1)
 
+# Start of element Q111
+ChangePinName(Q111, 2, S)
+ChangePinName(Q111, 3, D)
+ChangePinName(Q111, 1, G)
+
 # Start of element D164
 ChangePinName(D164, 1, 1)
 ChangePinName(D164, 2, 2)
 ChangePinName(D164, 3, 3)
 ChangePinName(D164, 4, 4)
-
-# Start of element Q111
-ChangePinName(Q111, 2, S)
-ChangePinName(Q111, 3, D)
-ChangePinName(Q111, 1, G)
 
 # Start of element TP_Y4
 ChangePinName(TP_Y4, 1, 1)
@@ -526,16 +486,16 @@ ChangePinName(RN7, 15, 15)
 ChangePinName(RN7, 16, 16)
 ChangePinName(RN7, 1, 1)
 
+# Start of element Q110
+ChangePinName(Q110, 2, S)
+ChangePinName(Q110, 3, D)
+ChangePinName(Q110, 1, G)
+
 # Start of element D163
 ChangePinName(D163, 1, 1)
 ChangePinName(D163, 2, 2)
 ChangePinName(D163, 3, 3)
 ChangePinName(D163, 4, 4)
-
-# Start of element Q110
-ChangePinName(Q110, 2, S)
-ChangePinName(Q110, 3, D)
-ChangePinName(Q110, 1, G)
 
 # Start of element TP_Y3
 ChangePinName(TP_Y3, 1, 1)
@@ -981,12 +941,6 @@ ChangePinName(Q107, 2, S)
 ChangePinName(Q107, 3, D)
 ChangePinName(Q107, 1, G)
 
-# Start of element D159
-ChangePinName(D159, 1, 1)
-ChangePinName(D159, 2, 2)
-ChangePinName(D159, 3, 3)
-ChangePinName(D159, 4, 4)
-
 # Start of element D101
 ChangePinName(D101, 1, 1)
 ChangePinName(D101, 2, 2)
@@ -998,16 +952,27 @@ ChangePinName(Q106, 2, S)
 ChangePinName(Q106, 3, D)
 ChangePinName(Q106, 1, G)
 
+# Start of element D159
+ChangePinName(D159, 1, 1)
+ChangePinName(D159, 2, 2)
+ChangePinName(D159, 3, 3)
+ChangePinName(D159, 4, 4)
+
+# Start of element Q105
+ChangePinName(Q105, 2, S)
+ChangePinName(Q105, 3, D)
+ChangePinName(Q105, 1, G)
+
 # Start of element D158
 ChangePinName(D158, 1, 1)
 ChangePinName(D158, 2, 2)
 ChangePinName(D158, 3, 3)
 ChangePinName(D158, 4, 4)
 
-# Start of element Q105
-ChangePinName(Q105, 2, S)
-ChangePinName(Q105, 3, D)
-ChangePinName(Q105, 1, G)
+# Start of element Q104
+ChangePinName(Q104, 2, S)
+ChangePinName(Q104, 3, D)
+ChangePinName(Q104, 1, G)
 
 # Start of element D157
 ChangePinName(D157, 1, 1)
@@ -1015,21 +980,16 @@ ChangePinName(D157, 2, 2)
 ChangePinName(D157, 3, 3)
 ChangePinName(D157, 4, 4)
 
-# Start of element Q104
-ChangePinName(Q104, 2, S)
-ChangePinName(Q104, 3, D)
-ChangePinName(Q104, 1, G)
+# Start of element Q103
+ChangePinName(Q103, 2, S)
+ChangePinName(Q103, 3, D)
+ChangePinName(Q103, 1, G)
 
 # Start of element D156
 ChangePinName(D156, 1, 1)
 ChangePinName(D156, 2, 2)
 ChangePinName(D156, 3, 3)
 ChangePinName(D156, 4, 4)
-
-# Start of element Q103
-ChangePinName(Q103, 2, S)
-ChangePinName(Q103, 3, D)
-ChangePinName(Q103, 1, G)
 
 # Start of element Q102
 ChangePinName(Q102, 2, S)
@@ -1074,10 +1034,6 @@ ChangePinName(Q157, 2, S)
 ChangePinName(Q157, 3, D)
 ChangePinName(Q157, 1, G)
 
-# Start of element R116
-ChangePinName(R116, 1, 1)
-ChangePinName(R116, 2, 2)
-
 # Start of element D152
 ChangePinName(D152, 1, 1)
 ChangePinName(D152, 2, 2)
@@ -1088,10 +1044,6 @@ ChangePinName(D152, 4, 4)
 ChangePinName(Q156, 2, S)
 ChangePinName(Q156, 3, D)
 ChangePinName(Q156, 1, G)
-
-# Start of element R115
-ChangePinName(R115, 1, 1)
-ChangePinName(R115, 2, 2)
 
 # Start of element D151
 ChangePinName(D151, 1, 1)
@@ -1104,15 +1056,15 @@ ChangePinName(Q155, 2, S)
 ChangePinName(Q155, 3, D)
 ChangePinName(Q155, 1, G)
 
-# Start of element R114
-ChangePinName(R114, 1, 1)
-ChangePinName(R114, 2, 2)
-
 # Start of element D150
 ChangePinName(D150, 1, 1)
 ChangePinName(D150, 2, 2)
 ChangePinName(D150, 3, 3)
 ChangePinName(D150, 4, 4)
+
+# Start of element R114
+ChangePinName(R114, 1, 1)
+ChangePinName(R114, 2, 2)
 
 # Start of element C404
 ChangePinName(C404, 2, 2)
@@ -1136,10 +1088,6 @@ ChangePinName(Q153, 2, S)
 ChangePinName(Q153, 3, D)
 ChangePinName(Q153, 1, G)
 
-# Start of element R112
-ChangePinName(R112, 1, 1)
-ChangePinName(R112, 2, 2)
-
 # Start of element C402
 ChangePinName(C402, 2, 2)
 ChangePinName(C402, 1, 1)
@@ -1148,10 +1096,6 @@ ChangePinName(C402, 1, 1)
 ChangePinName(Q152, 2, S)
 ChangePinName(Q152, 3, D)
 ChangePinName(Q152, 1, G)
-
-# Start of element R111
-ChangePinName(R111, 1, 1)
-ChangePinName(R111, 2, 2)
 
 # Start of element C401
 ChangePinName(C401, 2, 2)
@@ -1264,10 +1208,6 @@ ChangePinName(D144, 2, 2)
 ChangePinName(D144, 3, 3)
 ChangePinName(D144, 4, 4)
 
-# Start of element R108
-ChangePinName(R108, 1, 1)
-ChangePinName(R108, 2, 2)
-
 # Start of element Q148
 ChangePinName(Q148, 2, S)
 ChangePinName(Q148, 3, D)
@@ -1278,10 +1218,6 @@ ChangePinName(D143, 1, 1)
 ChangePinName(D143, 2, 2)
 ChangePinName(D143, 3, 3)
 ChangePinName(D143, 4, 4)
-
-# Start of element R107
-ChangePinName(R107, 1, 1)
-ChangePinName(R107, 2, 2)
 
 # Start of element TP_VCC4
 ChangePinName(TP_VCC4, 1, 1)
@@ -1330,10 +1266,6 @@ ChangePinName(D140, 2, 2)
 ChangePinName(D140, 3, 3)
 ChangePinName(D140, 4, 4)
 
-# Start of element R104
-ChangePinName(R104, 1, 1)
-ChangePinName(R104, 2, 2)
-
 # Start of element TP_VCC1
 ChangePinName(TP_VCC1, 1, 1)
 
@@ -1341,10 +1273,6 @@ ChangePinName(TP_VCC1, 1, 1)
 ChangePinName(Q144, 2, S)
 ChangePinName(Q144, 3, D)
 ChangePinName(Q144, 1, G)
-
-# Start of element R103
-ChangePinName(R103, 1, 1)
-ChangePinName(R103, 2, 2)
 
 # Start of element Q143
 ChangePinName(Q143, 2, S)
@@ -1388,18 +1316,12 @@ ChangePinName(CONN401, 1, 1)
 ChangePinName(D401, 1, 1)
 ChangePinName(D401, 2, 2)
 
-# Start of element TP_VLED7
-ChangePinName(TP_VLED7, 1, 1)
-
 # Start of element TP_VLED6
 ChangePinName(TP_VLED6, 1, 1)
 
 # Start of element C127
 ChangePinName(C127, 2, 2)
 ChangePinName(C127, 1, 1)
-
-# Start of element TP_VLED5
-ChangePinName(TP_VLED5, 1, 1)
 
 # Start of element C126
 ChangePinName(C126, 2, 2)
@@ -1420,9 +1342,6 @@ ChangePinName(C125, 1, 1)
 ChangePinName(R201, 1, 1)
 ChangePinName(R201, 2, 2)
 
-# Start of element TP_VLED3
-ChangePinName(TP_VLED3, 1, 1)
-
 # Start of element C124
 ChangePinName(C124, 2, 2)
 ChangePinName(C124, 1, 1)
@@ -1433,9 +1352,6 @@ ChangePinName(TP_VLED2, 1, 1)
 # Start of element C123
 ChangePinName(C123, 2, 2)
 ChangePinName(C123, 1, 1)
-
-# Start of element TP_VLED1
-ChangePinName(TP_VLED1, 1, 1)
 
 # Start of element C122
 ChangePinName(C122, 2, 2)
