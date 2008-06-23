@@ -1,10 +1,10 @@
-[_] 38% Todo for v1.0 pcb spin
+[_] 46% Todo for v1.0 pcb spin
 	[X] LED lin-regs are powered by Vcc, fix
 	[_] Replace all Y5V 0.1uF's with X7R's
 	[X] Extra 100uF caps for PIC and associated diode
 	[_] Do up power budget for 5V rail
 	[X] Light level pot or op-amp
-	[_] Mounting holes
+	[X] Mounting holes
 	[X] Redo ptc fuse stuff
 	[_] Heatsink lin-regs
 	[_] Timespans text
