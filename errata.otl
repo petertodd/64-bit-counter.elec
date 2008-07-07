@@ -1,16 +1,10 @@
-[_] 85% Todo for v1.0 pcb spin
-	[X] LED lin-regs are powered by Vcc, fix
+[_] 0% Errata for v1.0 pcb spin
 	[_] Replace all Y5V 0.1uF's with X7R's
-	[X] Extra 100uF caps for PIC and associated diode
-	[_] Do up power budget for 5V rail
-	[X] Light level pot or op-amp
-	[X] Mounting holes
-	[X] Redo ptc fuse stuff
-	[X] Heatsink lin-regs
-	[X] Timespans text
-	[X] Check SO wide vs narrow issues
-	[X] Check footprint on 100uF caps
-	[X] LM1117's need 22uF tantalums, fix existing 10uF's
-	[X] Polarity markers for above
-	[X] Version and title text
-		: lower-right, *outside* of frame lines?
+	[_] 0% Backup caps
+		[_] Add 0.1ohm resistor in series with backup caps
+		[_] Double to 600uF
+	[_] Update LED LDO resistors
+		: R101 - 169ohm
+		: R102 - 330ohm
+		:
+		: Both should be 1%
