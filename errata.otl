@@ -8,3 +8,6 @@
 		: R102 - 330ohm
 		:
 		: Both should be 1%
+	[_] RA4 should power the POT rather than go to the dip switch
+		: This would help the PIC conserve power during the crash eeprom
+		: write.
