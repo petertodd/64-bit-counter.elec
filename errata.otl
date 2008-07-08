@@ -11,3 +11,4 @@
 	[_] RA4 should power the POT rather than go to the dip switch
 		: This would help the PIC conserve power during the crash eeprom
 		: write.
+	[_] Change MCLR resistor (R201) to 100k
